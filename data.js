@@ -488,7 +488,7 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">знанием, пониманием, сознательным и точным исполнением всеми военнослужащими обязанностей, определенных федеральными законами, общевоинскими уставами и иными нормативными правовыми актами Российской Федерации<b><i>;</i></b></span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">образцовым несением боевого дежурства (боевой службы) и службы в суточном наряде;</span></li>\n                                </ul>",
@@ -496,11 +496,11 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">целенаправленной воспитательной работой, сочетанием высокой требовательности командиров (начальников) с\nпостоянной заботой о подчиненных и об охране их здоровья;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;точным выполнением распорядка дня и регламента служебного времени;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">организацией строевой подготовки;</span></li>\n                                </ul>",
@@ -508,10 +508,10 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">организацией боевой подготовки;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "2.5 Раскрыть  тактико-технические характеристики ручной осколочной гранаты РГН.",
@@ -558,7 +558,7 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1918 году</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1917 году</span></p>",
@@ -566,14 +566,14 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1924 году</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1925 году</span></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "К ведению Государственной Думы Федерального Собрания Российской Федерации относятся:\n\n (выберете все правильные ответы)",
@@ -5270,7 +5270,7 @@ const questions = [
 			},
 			{
 				"html": "<p>с помощью отвертки</p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p>с помощью патрона</p>",
@@ -5278,14 +5278,14 @@ const questions = [
 			},
 			{
 				"html": "<p>с помощью шомпола</p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p>с помощью переходника</p>",
 				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Неприкосновенный запас, который расходуется только с разрешения командира составляет:",
