@@ -449,19 +449,19 @@ const questions = [
 		"title": "К Федеральным органам исполнительной власти относятся:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительство РФ;</span></p>",
-				"isTrue": true
-			},
-			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">федеральные службы и др;</span></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">государственные комитеты РФ;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">муниципалитеты;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительство РФ;</span></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">муниципалитеты;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">органы местного самоуправления;</span></p>",
 				"isTrue": false
 			},
 			{
@@ -473,8 +473,8 @@ const questions = [
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">органы местного самоуправления;</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">государственные комитеты РФ;</span></p>",
+				"isTrue": true
 			}
 		],
 		"isTrue": true
@@ -543,12 +543,12 @@ const questions = [
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">На Правительство РФ возлагается организация разработки и выполнения государственных программ вооружения и развития всего оборонного промышленного комплекса.</span><b><i></i></b></p>",
-				"isTrue": true
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительство РФ<b><i> </i></b>рассматривает вопросы внутренней и внешней политики Российской Федерации в области обеспечения безопасности.</span></p>",
 				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">На Правительство РФ возлагается организация разработки и выполнения государственных программ вооружения и развития всего оборонного промышленного комплекса.</span><b><i></i></b></p>",
+				"isTrue": true
 			}
 		],
 		"isTrue": true
@@ -579,19 +579,15 @@ const questions = [
 		"title": "К ведению Государственной Думы Федерального Собрания Российской Федерации относятся:\n\n (выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">решение вопроса о доверии судьям Конституционного, Верховного, Высшего Арбитражного судов РФ;</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">объявление амнистии;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">дача согласия Президенту на назначение Председателя Правительства;</span></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение на должность Генерального прокурора РФ, освобождение его от должности;</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">решение вопроса о доверии Правительству;</span></p>",
+				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">дача согласия Президенту на назначение Председателя Правительства;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">выдвижение обвинения против Президента РФ для отрешения его от должности;</span></p>",
 				"isTrue": true
 			},
 			{
@@ -599,11 +595,15 @@ const questions = [
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">решение вопроса\nо доверии Правительству;</span></p>",
-				"isTrue": true
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">решение вопроса о доверии судьям Конституционного, Верховного, Высшего Арбитражного судов РФ;</span></p>",
+				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">выдвижение обвинения против Президента РФ для отрешения его от должности;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение на должность Генерального прокурора РФ, освобождение его от должности;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">объявление амнистии;</span></p>",
 				"isTrue": true
 			}
 		],
@@ -669,12 +669,12 @@ const questions = [
 		"title": "Самое крупное в России соленое море-озеро",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Самое крупное в России соленое море-озеро - Каспийское море (371 тыс. кв. км).</span></p>",
-				"isTrue": true
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Самое крупное в России соленое море-озеро - Азовское море (371,537 тыс. кв. км).</span></p>",
 				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Самое крупное в России соленое море-озеро - Каспийское море (371 тыс. кв. км).</span></p>",
+				"isTrue": true
 			}
 		],
 		"isTrue": true
@@ -696,7 +696,7 @@ const questions = [
 			},
 			{
 				"html": "<p>Для разряжания автомата необходимо:</p>\n                                    <ul>\n                                        <li>отделить магазин;</li>\n                                        <li>снять автомат с предохранителя;</li>\n                                        <li>нажать на спусковой крючок (спустить курок с боевого взвода);</li>\n                                        <li>медленно отвести затворную раму за рукоятку назад, извлечь патрон из патронника и отпустить затворную раму;</li>\n                                        <li>нажать на спусковой крючок (спустить курок с боевого взвода);</li>\n                                        <li>присоединить магазин;</li>\n                                        <li>поставить автомат на предохранитель, взять его&nbsp;<i>«на ремень»,</i></li>\n                                    </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p>Для разряжания автомата необходимо:</p>\n                                    <ul>\n                                        <li>отделить магазин;</li>\n                                        <li>снять автомат с предохранителя;</li>\n                                        <li>нажать на спусковой крючок (спустить курок с боевого взвода);</li>\n                                        <li>медленно отвести затворную раму за рукоятку назад и отпустить затворную раму;</li>\n                                        <li>нажать на спусковой крючок (спустить курок с боевого взвода);</li>\n                                        <li>поставить автомат на предохранитель, взять его&nbsp;<i>«на ремень»,</i></li>\n                                    </ul>",
@@ -4123,24 +4123,24 @@ const questions = [
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Внутренние войска МВД РФ;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Войска федеральной службы исполнения наказаний РФ;</span></p>",
 				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральная пограничная служба;</span></p>",
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">Железнодорожные войска;</span></p>",
 				"isTrue": true
 			},
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Внутренние войска МВД РФ;</span></p>",
+				"isTrue": false
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Войска Федерального агентства правительственной связи и информации при Президенте Российской Федерации;</span></p>",
 				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Войска федеральной службы исполнения наказаний РФ;</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральная пограничная служба;</span></p>",
-				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Спасательные воинские формирования Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий;</span></p>",
@@ -5870,6 +5870,416 @@ const questions = [
 			},
 			{
 				"html": "<p><span data-contrast=\"auto\" class=\"TextRun SCXW106236045 BCX0\" xml:lang=\"RU-RU\" lang=\"RU-RU\"><span class=\"NormalTextRun SCXW106236045 BCX0\" data-ccp-parastyle=\"Normal (Web)\">по поведению самой обстреливаемой цели</span></span><span class=\"EOP SCXW106236045 BCX0\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559731&quot;:709,&quot;335559740&quot;:360}\"><br></span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "С какого времени отмечается День Государственного флага России?",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">С 1993 года 22 августа в России отмечается <b>День Государственного флага.</b></span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">С 2000 года 22 августа в России отмечается <b>День Государственного флага.</b></span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">С 1994 года 22 августа в России отмечается <strong>День Государственного флага.</strong></span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Протяженность территории России в меридиональном и широтном направлении?",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Протяженность территории России в меридиональном направлении - 2,5 - 4 тыс. км, в широтном - 9 тыс. км.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Протяженность территории России в меридиональном направлении - 3,5 - 6 тыс. км, в широтном - 11 тыс. км.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Протяженность территории России в меридиональном направлении - 1,5 - 3 тыс. км, в широтном - 7 тыс. км.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Во время проведения каких воинских ритуалов в Вооруженных Силах исполняется государственный гимн Российской Федерации\n\n\n(Выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при проведении проводов военнослужащих, уволенных в запас или отставку (УВС ВС РФ, приложение 9);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при возложении венков, отдании воинских почестей памятникам и могилам воинов, павших в боях за свободу и независимость Отечества (УГ и КС ВС РФ, ст. 360);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при приведении военнослужащих к военной присяге (УВС ВС РФ, приложение 1);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при награждении военнослужащих государственными наградами&nbsp;<span style=\"font-size: medium; font-family: times new roman, times, serif;\"> Российской Федерации</span> (УВС ВС РФ, приложение 3);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при воинском приветствии Президента и Министра обороны РФ (УВС ВС РФ, ст. 47);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при награждении военнослужащих именным стрелковым или холодным оружием (УГ и КС ВС РФ, ст. 404);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при возложении венков, отдании воинских почестей памятникам и могилам воинов, павших в боях за свободу и независимость Отечества главами иностранных государств и правительств, а также министрами обороны и официальными военными делегациями (УГ и КС ВС РФ, ст. 360);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- на парадах войск (УГ и КС ВС РФ, ст. 318);</span></p>\n                                    <p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- при отдании воинских почестей при погребении (УГ и КС ВС РФ, ст. 353);</span></p>\n                                    <p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при проведении общей батальонной (полковой) вечерней поверки (УВС ВС РФ, ст. 237);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- при воинском приветствии Президента, Министра обороны РФ, глав иностранных государств и правительств, а также министров обороны и официальных военных делегаций (УВС ВС РФ, ст. 47);</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Площадь Российской Федерации?",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Россия - крупнейшее по площади, населению и экономической мощи государство Евро-Азиатского континента. Она раскинулась на площади свыше 19 миллионов квадратных километров (19,4 млн. кв. км) и занимает большую часть Восточной Европы и Северную Азию.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Россия - крупнейшее по площади, населению и экономической мощи государство Евро-Азиатского континента. Она раскинулась на площади свыше 15 миллионов квадратных километров (15,4 млн. кв. км) и занимает большую часть Восточной Европы и Северную Азию.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Россия - крупнейшее по площади, населению и экономической мощи государство Евро-Азиатского континента. Она раскинулась на площади свыше 16 миллионов квадратных километров (16,4 млн. кв. км) и занимает большую часть Восточной Европы и Северную Азию.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Россия - крупнейшее по площади, населению и экономической мощи государство Евро-Азиатского континента. Она раскинулась на площади свыше 18 миллионов квадратных километров (18,4 млн. кв. км) и занимает большую часть Восточной Европы и Северную Азию.<br></span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Россия - крупнейшее по площади, населению и экономической мощи государство Евро-Азиатского континента. Она раскинулась на площади свыше 17 миллионов квадратных километров (17,4 млн. кв. км) и занимает большую часть Восточной Европы и Северную Азию.</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Государственный флаг Российской Федерации поднят постоянно на зданиях:\n\n(Выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Совета Федерации <a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=7&amp;displayformat=dictionary\" title=\"Глоссарий: ФС\" class=\"glossary autolink concept glossaryid1\">ФС</a> РФ;</span></p>\n                                <p><span style=\"font-family: times new roman, times, serif; font-size: medium;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Государственной Думы <a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=7&amp;displayformat=dictionary\" title=\"Глоссарий: ФС\" class=\"glossary autolink concept glossaryid1\">ФС</a> РФ;</span></span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительства областей РФ;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Администрации президента РФ;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Участковой избирательной комиссии РФ;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Министерства Обороны РФ;</span></p>\n                                    <p></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Счетной палаты РФ;</span></p>\n                                    <p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">резиденции Уполномоченного по правам человека в РФ;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Центрального банка РФ;</span></p>\n                                    <p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Генерального штаба МО РФ;</span></p>\n                                    <p></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Администрации муниципалитетов областей РФ;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительства РФ;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Центральной избирательной комиссии РФ;</span></p>\n                                    <p></p>\n                                    <p class=\"1\">&nbsp;</p>\n                                    <p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Конституционного Суда РФ;</span></p>\n                                    <p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Верховного Суда РФ;</span></p>\n                                    <p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;</span></p>\n                                    <p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Следственного комитета РФ;</span></p>\n                                    <p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p class=\"1\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Генеральной прокуратуры РФ;</span></p>\n                                    <p></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Общая протяженность границ Российской Федерации?",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Общая протяженность границ РФ составляет 60 933 км, из них 14 510 км - сухопутных, 7 141 - речных, 475 км - озерных и 38 807 км морских.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Общая протяженность границ РФ составляет 62 933 км, из них 15 510 км - сухопутных, 8 141 - речных, 475 км - озерных и 38 807 км морских.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Общая протяженность границ РФ составляет 58 933 км, из них 13 510 км - сухопутных, 7 141 - речных, 475 км - озерных и 37 807 км морских.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Самая высокая вершина России?",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Самая высокая вершина России - Эльбрус (5 624 м).</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Самая высокая вершина России – Дыхтау (Дых-тау) (5&nbsp;645 м). Название горы в переводе с карачаево-балкарского, означает — «Крутая гора». Расположена на Кавказе, в Кабардино-Балкарии, район Безенги.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Структура Государственной власти в России.",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Государственная власть в России осуществляется на основе разделения на законодательную, исполнительную.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Государственная власть в России осуществляется на основе разделения на законодательную, исполнительную, конституционную и судебную.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Государственная власть в России осуществляется на основе разделения на законодательную, исполнительную и судебную.</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "К ведению Совета Федерации относятся:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение выборов Президента РФ, отрешение его от должности; назначение на должность судей Конституционного, Верховного, Высшего Арбитражного судов РФ, назначение выборов Государственной Думы Федерального Собрания Российской Федерации;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение на должность Начальника Генерального штаба МО РФ и освобождение его от должности;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение на должность Генерального прокурора РФ, освобождение его от должности;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">решение вопроса о возможности использования Вооруженных Сил РФ за пределами территории Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">утверждение изменения границ между субъектами Российской Федерации; </span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение выборов Президента РФ, отрешение его от должности; назначение на должность судей Конституционного, Верховного, Высшего Арбитражного судов РФ;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">утверждение указов Президента РФ о введении военного или чрезвычайного положения;</span> </span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Основными конституционными полномочиями Правительства являются:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">обеспечение проведения в Российской Федерации единой государственной политики в области культуры, науки, образования, здравоохранения, социального обеспечения, экологии;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">принятие мер по укреплению обороны страны, государственной безопасности, реализации внешней политики&nbsp;РФ;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">решение вопросов управления культурой, наукой, образованием, здравоохранением и социальным обеспечением граждан России;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">обеспечение проведения в Российской Федерации единой финансовой, кредитной и денежной политики;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">разработка и представление Государственной Думе федерального бюджета и обеспечение его исполнения, а также представление отчета о его исполнении;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">обеспечение проведения в Российской Федерации единой политики в области межгосударственных отношений;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">реализация мер по обеспечению законности, прав и свобод граждан, охране собственности и общественного порядка, борьбе с преступностью;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">решение вопросов управления федеральной собственностью;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Совет Федерации обладает следующими полномочиями в области защиты Отечества:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">обеспечивают потребности Вооруженных Сил РФ, других войск, воинских формирований и федеральных органов в материальных средствах, энергетических и других ресурсах и услугах в порядке, установленном законодательством в области обороны;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">ратифицирует и денонсирует международные договоры Российской Федерации о сотрудничестве в области обороны;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">рассматривает вопросы внутренней и внешней политики Российской Федерации в области обеспечения безопасности;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">рассматривает принятые Государственной Думой законы РФ, регламентирующие организацию в области обороны и безопасности страны, деятельность Вооруженных Сил РФ, других войск и федеральных органов;</span> </span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">рассматривает в рамках федерального бюджета расходы на оборону;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">утверждает указы Президента РФ о введении военного и чрезвычайного положения на территории Российской Федерации или в отдельных ее местностях;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">решает вопрос о возможности использования Вооруженных Сил РФ за пределами территории России;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Силы обеспечения безопасности Российской Федерации включают в себя:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Другие войска государства;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Вооруженные Силы;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">федеральные органы;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">инженерно-технические и дорожно-строительные воинские формирования при федеральных органах исполнительной власти;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Войска национальной гвардии РФ;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральная пограничная служба;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Федеральные органы включают в себя:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Министерство внутренних дел Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральный орган обеспечения мобилизационной подготовки органов государственной власти Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральная служба охраны;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральное агентство правительственной связи и информации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральный орган исполнения наказаний;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Служба внешней разведки Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральный орган подготовки мобилизационного резерва Российской Федерации;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральный орган транспортной мобильности государственной власти Российской Федерации;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральная служба безопасности Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральная пограничная служба;</span></p>",
 				"isTrue": true
 			}
 		],
