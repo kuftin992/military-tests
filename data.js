@@ -4,18 +4,18 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира роты;</span></p>\n                                <p></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира батальона;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира взвода;</span></p>\n                                    <p></p>\n                                    <p></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.1 Как измеряется калибр в Росии?",
@@ -48,7 +48,7 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим не применяется на войне высшая мера насилия, т. е, физическое уничтожение, только плен;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- право применять технику и вооружение;</span></p>",
@@ -60,18 +60,18 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, имеют право на обращение с ними, как с военнопленными.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">- право применять военную силу;</span> </span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, не имеют право на обращение с ними, как с военнопленными.</span></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Военнослужащий в воинском звании Сержант имеет право применить к провинившимся солдатам следующие виды взысканий:\n\n(выберете все правильные ответы)",
@@ -86,25 +86,25 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- предупреждать о неполном служебном соответствии;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- объявлять выговор и строгий выговор;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Военнослужащим по призыву предоставляется еженедельно",
 		"answers": [
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не менее одних суток отдыха.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не менее двух суток отдыха.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">одни сутки отдыха.</span></p>",
@@ -115,18 +115,18 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Караулы бывают:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">комендантские;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">гарнизонные;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">постоянные;</span></p>",
@@ -138,7 +138,7 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">внутренние (корабельные);</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">полевые;</span></p>",
@@ -153,25 +153,25 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Командиры, должности которых в Уставе не упомянуты, в отношении подчиненных им военнослужащих пользуются дисциплинарной властью в соответствии с воинским званием, предусмотренным по занимаемой должности:\n\nмладший лейтенант, лейтенант и старший лейтенант - властью",
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира взвода;</span></p>\n                                <p></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- заместителя командира взвода;</span></p>\n                                    <p></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира роты;</span></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "2.4 Раскрыть положение пистолета и магазина по команде \"Оружие к осмотру\".",
@@ -222,34 +222,34 @@ const questions = [
 		"answers": [
 			{
 				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав внутренней службы ВС РФ;</span></li>\n                            </ul>",
-				"isTrue": false
-			},
-			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав внутренней и внешней службы ВС РФ;</span></li>\n                                </ul>",
 				"isTrue": true
 			},
 			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав гарнизонной и караульной служб ВС РФ;</span></li>\n                                </ul>",
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав внутренней и внешней службы ВС РФ;</span></li>\n                                </ul>",
 				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав гарнизонной и караульной служб ВС РФ;</span></li>\n                                </ul>",
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав военной полиции;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">Строевой устав ВС РФ;</span>\n</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Дисциплинарный устав ВС РФ;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав гарнизонной, караульной и комендантской служб ВС РФ;</span></li>\n                                </ul>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Статус военнослужащих",
@@ -260,14 +260,14 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">есть совокупность прав, гарантированных государством, а также ответственности военнослужащих, установленных настоящим Федеральным законом, федеральными конституционными законами, федеральными законами и иными нормативными правовыми актами Российской Федерации.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">есть совокупность прав, свобод, гарантированных государством, а также обязанностей и ответственности военнослужащих, установленных настоящим Федеральным законом, федеральными конституционными законами, федеральными законами и иными нормативными правовыми актами Российской Федерации.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Что означает обозначение 9х18 ?",
@@ -300,7 +300,7 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">эвакуации из осажденных зон женщин и детей;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif;\"><span style=\"font-size: medium;\">&nbsp;</span><span style=\"font-size: medium;\">погребение мертвых;</span> </span></li>\n                                </ul>",
@@ -316,10 +316,10 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">&nbsp;подбор раненых;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "2.2 Доложить временные показатели и оценку за выполнение норматива № 7.",
@@ -348,14 +348,14 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это территория, на которой вооруженные силы воюющих проводят военные операции.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это вся территория воюющих государств, на которой они потенциально могут вести военные операции.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Третий этап - практическое занятие с отработкой действий всех лиц караула на постах в различных условиях обстановки проводится:",
@@ -366,14 +366,14 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- в день заступления в караул;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- за два-три дня до заступления в караул;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "По своему воинскому званию сержанты и старшины, проходящие военную службу, являются начальниками для:\n",
@@ -2100,11 +2100,11 @@ const questions = [
 			},
 			{
 				"html": "<p>Огнестрельное оружие\n                                    ограниченного поражения, и спортивное оружие, хранится отдельно от боевого оружия. При отсутствии\n                                    отдельной пирамиды разрешается хранить указанное оружие вместе с боевым, при\n                                    этом место его хранения отделяется перегородкой и обозначается соответствующей\n                                    надписью<br></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p>Огнестрельное оружие\n                                    ограниченного поражения, и спортивное оружие, хранится отдельно от боевого оружия. При отсутствии\n                                    отдельной пирамиды разрешается хранить указанное оружие вместе с боевым, при\n                                    этом место его хранения отделяется перегородкой и обозначается соответствующей\n                                    надписью. Пирамиды закрываются на замок и опечатываются печатью командиром роты<br></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p>Огнестрельное оружие\n                                    ограниченного поражения, и спортивное оружие, хранится отдельно от боевого оружия. При отсутствии\n                                    отдельной пирамиды разрешается хранить указанное оружие вместе с боевым, при\n                                    этом место его хранения отделяется перегородкой и обозначается соответствующей\n                                    надписью. Пирамиды закрываются на замок и опечатываются печатью старшиной роты</p>",
@@ -2115,7 +2115,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.4 Раскрыть порядок осмотра патронов.",
@@ -3864,11 +3864,11 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1556 году</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1552 году</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1558 году</span></p>",
@@ -3879,7 +3879,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Федеральный закон «О статусе военнослужащих» состоит из",
@@ -3938,7 +3938,7 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии, направленной против Российской Федерации;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для вооруженной защиты неприкосновенности границ Российской Федерации;</span></p>",
@@ -3946,29 +3946,29 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии, направленной против Российской Федерации и ее союзников;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для вооруженной защиты целостности и неприкосновенности территории Российской Федерации;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для выполнения задач в соответствии с международными договорами Российской Федерации;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии против союзных государств в соответствии с международными договорами Российской Федерации;</span></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Дисциплинарная ответственность военнослужащих характеризуется следующими особенностями:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не различается в зависимости от составов и категорий военнослужащих;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">включает специальные виды дисциплинарных взысканий;</span></p>",
@@ -3992,14 +3992,14 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">предусматривает привлечение к дисциплинарной ответственности любым из прямых командиров (начальников);</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">различается в зависимости от составов и категорий военнослужащих;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Предусматривается следующий состав суточного полкового наряда:\n\n(выберете все правильные ответы)",
@@ -4014,7 +4014,7 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">дежурный по штабу полка;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный и помощники дежурного по контрольно-пропускному пункту;</span></li>\n                                </ul>",
@@ -4026,7 +4026,7 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">пожарный наряд;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">командир дежурных сил (КДС);</span></li>\n                                </ul>",
@@ -4034,11 +4034,11 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный и дневальные по парку, а также механики-водители (водители) дежурных тягачей;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;караул;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">патрули;</span></li>\n                                </ul>",
@@ -4046,15 +4046,15 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный по полку;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный по столовой и рабочие в столовую;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">дежурное подразделение;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;помощник дежурного по полку;</span></li>\n                                </ul>",
@@ -4062,14 +4062,14 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;старшие дежурных машин;</span></li>\n                                </ul>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный фельдшер или санитарный инструктор и дневальные по медицинскому пункту;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Комбатанты",
@@ -4094,7 +4094,7 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против человечности;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- военные преступления, а именно: нарушение законов или обычаев войны;</span></p>",
@@ -4102,18 +4102,18 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против международного права;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против собственности и культурных ценностей;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- преступления против мира;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Другие войска государства это:\n\n(выберете все правильные ответы)",
@@ -4228,32 +4228,32 @@ const questions = [
 			},
 			{
 				"html": "В ящике с патронами должна быть опись, подписанная старшиной подразделения (начальником штаба).В описи указываются наименование и коли­чество патронов, номер завода, номер партии, тип пули, и год их изготовления.",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "В ящике с патронами должна быть опись, подписанная старшиной подразделения (начальником штаба).В описи указываются наименование и коли­чество патронов, номер завода и год их изготовления.",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "В ящике с патронами должна быть опись, подписанная командиром подразделения (начальником штаба).В описи указываются наименование и коли­чество патронов, номер завода и год их изготовления.",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Непосредственным начальником военнослужащего является",
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">ближайший к подчиненному прямой начальник.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">начальник, которому военнослужащий подчинен по службе, хотя бы и временно.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.2 Раскрыть первый период выстрела.",
@@ -4408,7 +4408,7 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p>Оружие за личным составом закрепляется и учитывается в:</p>\n                                <ul>\n                                    <li>ведомости закрепления ору­жия за личным составом;</li>\n                                    <li>книге выдачи оружия и боеприпасов (на специально отведенных для этого&nbsp; последних страницах)</li>\n                                    <li>в военном билете;</li>\n                                    <li>раздаточной ведомости оружия и боеприпасов (поставляется два раза в год).</li>\n                                    <li><span style=\"font-size: 1rem;\">книге выдачи оружия и боеприпасов (на специально отведенных для этого&nbsp; последних страницах)</span></li>\n                                    <li>в военном билете;</li>\n                                    <li>удостоверении личности.</li>\n                                </ul>\n                                <p>Каждая запись о выдаче и сдаче оружия заверяется подписью командира подразде­ления (начальника штаба) и скрепляется гербовой печатью воин­ской части.</p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p>нет правильных вариантов ответа.</p>",
@@ -4420,14 +4420,14 @@ const questions = [
 			},
 			{
 				"html": "<p><span>Оружие за личным составом закрепляется и учитывается в:</span></p>\n                                    <ul>\n                                        <li><span>ведомости закрепления ору­жия за личным составом;</span></li>\n                                        <li><span>книге выдачи оружия и боеприпасов (на специально отведенных для этого&nbsp; последних страницах)</span></li>\n                                        <li>в военном билете;</li>\n                                        <li>удостоверении личности.</li>\n                                    </ul>\n                                    <p>Каждая запись о выдаче и сдаче оружия заверяется подписью командира подразде­ления (начальника штаба) и скрепляется гербовой печатью воин­ской части.</p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: 1rem;\">Оружие за личным составом закрепляется и учитывается в:</span></p>\n                                    <ul>\n                                        <li><span style=\"font-size: 1rem;\">ведомости закрепления ору­жия за личным составом;</span></li>\n                                        <li>в военном билете;</li>\n                                        <li>удостоверении личности.</li>\n                                    </ul>\n                                    <p>Каждая запись о выдаче и сдаче оружия заверяется подписью командира подразде­ления (начальника штаба) и скрепляется гербовой печатью воин­ской части.</p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.3 Раскрыть порядок хранения учебных патронов.",
@@ -5168,14 +5168,14 @@ const questions = [
 			},
 			{
 				"html": "<p>ударник</p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p>боёк</p>",
-				"isTrue": true
+				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "2.3 Раскрыть положение частей и механизмов пистолета ПМ до заряжания.",
