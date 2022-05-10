@@ -121,19 +121,19 @@ const questions = [
 		"title": "Караулы бывают:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">комендантские;</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">гарнизонные;</span></p>",
-				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">постоянные;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">транспортные (по охране воинских эшелонов);</span></p>",
 				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">временные;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">офицерские;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">комендантские;</span></p>",
 				"isTrue": false
 			},
 			{
@@ -145,12 +145,12 @@ const questions = [
 				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">транспортные (по охране воинских эшелонов);</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">гарнизонные;</span></p>",
+				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">офицерские;</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">постоянные;</span></p>",
+				"isTrue": true
 			}
 		],
 		"isTrue": true
@@ -361,15 +361,15 @@ const questions = [
 		"title": "Третий этап - практическое занятие с отработкой действий всех лиц караула на постах в различных условиях обстановки проводится:",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- в день, предшествующий заступлению в караул;</span></p>",
-				"isTrue": false
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- в день заступления в караул;</span></p>",
 				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- за два-три дня до заступления в караул;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- в день, предшествующий заступлению в караул;</span></p>",
 				"isTrue": false
 			}
 		],
@@ -617,23 +617,23 @@ const questions = [
 				"isTrue": false
 			},
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- помощнику начальника караула;</span></p>",
+				"isTrue": true
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- своему разводящему;</span></p>",
 				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- своему командиру отделения;</span></p>",
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- начальнику караула;</span></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- помощнику начальника караула;</span></p>",
-				"isTrue": true
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- своему командиру роты;</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- своему командиру отделения;</span></p>",
 				"isTrue": false
 			}
 		],
@@ -3723,15 +3723,15 @@ const questions = [
 				"isTrue": false
 			},
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">смотреть телепередачи слушать радиотрансляцию через головные телефоны, читать, писать, играть в шахматы и шашки.</span></p>",
+				"isTrue": false
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">использовать личные средства связи, петь и играть на музыкальных инструментах.</span></p>",
 				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">оба ответа не правильные.</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">смотреть телепередачи слушать радиотрансляцию через головные телефоны, читать, писать, играть в шахматы и шашки.</span></p>",
 				"isTrue": false
 			}
 		],
@@ -3837,7 +3837,15 @@ const questions = [
 		"title": "В каком случае Начальник караула не обязан вызывать караул \"в ружье\"",
 		"answers": [
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">возникновения пожара на охраняемом объекте или в караульном помещении либо угрожающего им стихийного бедствия;</span></p>",
+				"isTrue": false
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">побега (предупреждения побега) или возникновения беспорядка среди военнослужащих, содержащихся на гауптвахте (в дисциплинарной воинской части);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">нападения либо непосредственной угрозы нападения (физического воздействия) на охраняемые объекты, часовых, смену караульных (контрольно-охранную группу) или на караульное помещение;</span></p>",
 				"isTrue": false
 			},
 			{
@@ -3847,14 +3855,6 @@ const questions = [
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">&nbsp;объявления проверки в гарнизоне (воинской части);</span></p>",
 				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">возникновения пожара на охраняемом объекте или в караульном помещении либо угрожающего им стихийного бедствия;</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">нападения либо непосредственной угрозы нападения (физического воздействия) на охраняемые объекты, часовых, смену караульных (контрольно-охранную группу) или на караульное помещение;</span></p>",
-				"isTrue": false
 			}
 		],
 		"isTrue": true
@@ -3903,14 +3903,6 @@ const questions = [
 		"title": "Кто из перечисленных лиц не входит в состав караула:",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула (<a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=20&amp;displayformat=dictionary\" title=\"Глоссарий: оператор\" class=\"glossary autolink concept glossaryid1\">оператор</a>) по техническим средствам охраны или смена <a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=20&amp;displayformat=dictionary\" title=\"Глоссарий: оператор\" class=\"glossary autolink concept glossaryid1\">оператор</a>ов (два-три человека, один из которых может быть назначен помощником начальника караула по техническим средствам охраны);</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула по службе караульных собак;</span></p>",
-				"isTrue": false
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">водители транспортных средств;</span></p>",
 				"isTrue": false
 			},
@@ -3919,15 +3911,23 @@ const questions = [
 				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула по охране особо важных объектов;</span></p>",
-				"isTrue": true
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">разводящие;</span></p>",
 				"isTrue": false
 			},
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула по службе караульных собак;</span></p>",
+				"isTrue": false
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">вожатые караульных собак;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула по охране особо важных объектов;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула (<a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=20&amp;displayformat=dictionary\" title=\"Глоссарий: оператор\" class=\"glossary autolink concept glossaryid1\">оператор</a>) по техническим средствам охраны или смена <a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=20&amp;displayformat=dictionary\" title=\"Глоссарий: оператор\" class=\"glossary autolink concept glossaryid1\">оператор</a>ов (два-три человека, один из которых может быть назначен помощником начальника караула по техническим средствам охраны);</span></p>",
 				"isTrue": false
 			}
 		],
@@ -7499,10 +7499,6 @@ const questions = [
 		"title": "Смена часовых у входа в караульное помещение производится через",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">каждые 45 минут.</span></p>",
-				"isTrue": false
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">каждые 30 минут.</span></p>",
 				"isTrue": true
 			},
@@ -7512,6 +7508,10 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">каждый час.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">каждые 45 минут.</span></p>",
 				"isTrue": false
 			}
 		],
@@ -8422,6 +8422,126 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не менее двух часов, а при заступлении в караул через сутки - не менее трех часов для подготовки к несению службы, в том числе не менее двух часов для отдыха (сна).</span></li>\n                                </ul>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Неприкосновенность часового заключается:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в подчинении его строго определенным лицам - начальнику караула, помощнику начальника караула и своему разводящему;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в освобождении его от юридической ответственности за причиненный им правонарушителю в связи с применением в предусмотренных настоящим Уставом случаях оружия или физической силы моральный, физический, имущественный вред;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в обязанности всех лиц беспрекословно выполнять требования часового, определяемые его службой;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в предоставлении ему права применять оружие в случаях, указанных в настоящем Уставе;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в особой охране законодательством Российской Федерации его здоровья и жизни;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в особой охране законодательством Российской Федерации его прав и личного достоинства;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Гарнизонная служба имеет целью обеспечить\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">-&nbsp; проведение гарнизонных мероприятий с участием войск;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- несение службы суточным нарядом;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- согласованность действий войск гарнизона при переводе с мирного на военное время;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- необходимые условия для их повседневной деятельности и подготовки;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- охрану военнослужащих,<b><i> </i></b>осужденных к аресту и содержащихся на гауптвахтах, военнослужащих, содержащихся в дисциплинарных воинских частях;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- несение караульной службы;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Дежурное подразделение назначается",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">на каждые сутки.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">на 12 часов.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">на 48 часов.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">на каждые трое суток.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Дежурное подразделение гарнизона назначается на случай:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">проведения срочных хозяйственных работ;</span></li>\n                            </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">усиления гарнизонных караулов;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">срочного вызова при возникновении (угрозе возникновения) чрезвычайных ситуаций природного и техногенного характера;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">отражения нападения на военные городки и другие объекты;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">конвоирования осужденных военнослужащих;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">поддержания порядка на территории гарнизона;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">иных происшествий в гарнизоне;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">проведения торжественных гарнизонных мероприятий;</span></li>\n                                </ul>",
 				"isTrue": false
 			}
 		],
