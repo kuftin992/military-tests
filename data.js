@@ -47,20 +47,12 @@ const questions = [
 		"title": "За комбатантами, признается:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим не применяется на войне высшая мера насилия, т. е, физическое уничтожение, только плен;</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, имеют право на обращение с ними, как с военнопленными.</span></p>",
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- право применять технику и вооружение;</span></p>",
 				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим применяется на войне высшая мера насилия, т. е, физическое уничтожение;</span></p>",
-				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, имеют право на обращение с ними, как с военнопленными.</span></p>",
-				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">- право применять военную силу;</span> </span></p>",
@@ -68,6 +60,14 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, не имеют право на обращение с ними, как с военнопленными.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим применяется на войне высшая мера насилия, т. е, физическое уничтожение;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим не применяется на войне высшая мера насилия, т. е, физическое уничтожение, только плен;</span></p>",
 				"isTrue": false
 			}
 		],
@@ -255,16 +255,16 @@ const questions = [
 		"title": "Статус военнослужащих",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">есть совокупность свобод, гарантированных государством, а также обязанностей военнослужащих, установленных настоящим Федеральным законом, федеральными конституционными законами, федеральными законами и иными нормативными правовыми актами Российской Федерации.</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">есть совокупность прав, свобод, гарантированных государством, а также обязанностей и ответственности военнослужащих, установленных настоящим Федеральным законом, федеральными конституционными законами, федеральными законами и иными нормативными правовыми актами Российской Федерации.</span></p>",
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">есть совокупность прав, гарантированных государством, а также ответственности военнослужащих, установленных настоящим Федеральным законом, федеральными конституционными законами, федеральными законами и иными нормативными правовыми актами Российской Федерации.</span></p>",
 				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">есть совокупность прав, свобод, гарантированных государством, а также обязанностей и ответственности военнослужащих, установленных настоящим Федеральным законом, федеральными конституционными законами, федеральными законами и иными нормативными правовыми актами Российской Федерации.</span></p>",
-				"isTrue": true
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">есть совокупность свобод, гарантированных государством, а также обязанностей военнослужащих, установленных настоящим Федеральным законом, федеральными конституционными законами, федеральными законами и иными нормативными правовыми актами Российской Федерации.</span></p>",
+				"isTrue": false
 			}
 		],
 		"isTrue": true
@@ -295,19 +295,11 @@ const questions = [
 		"title": "Местное перемирие направлено на реализацию частных задач:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">восстановление разрушенных объектов жизнеобеспечения и боеспособности войск;</span></li>\n                            </ul>",
-				"isTrue": false
-			},
-			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">эвакуации из осажденных зон женщин и детей;</span></li>\n                                </ul>",
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif;\"><span style=\"font-size: medium;\">&nbsp;</span><span style=\"font-size: medium;\">погребение мертвых;</span> </span></li>\n                            </ul>",
 				"isTrue": true
 			},
 			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif;\"><span style=\"font-size: medium;\">&nbsp;</span><span style=\"font-size: medium;\">погребение мертвых;</span> </span></li>\n                                </ul>",
-				"isTrue": true
-			},
-			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">эвакуация поврежденной военной техники;</span></li>\n                                </ul>",
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">восстановление разрушенных объектов жизнеобеспечения и боеспособности войск;</span></li>\n                                </ul>",
 				"isTrue": false
 			},
 			{
@@ -316,6 +308,14 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">&nbsp;подбор раненых;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">эвакуация поврежденной военной техники;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">эвакуации из осажденных зон женщин и детей;</span></li>\n                                </ul>",
 				"isTrue": true
 			}
 		],
@@ -397,28 +397,28 @@ const questions = [
 		"title": "В отношении раненых и больных будут запрещены следующие действия:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— посягательство на человеческое достоинство, в частности оскорбительное и унижающее обращение;</span></p>",
-				"isTrue": true
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— применение наказаний без судебного решения, вынесенного надлежащим образом учрежденным судом, при наличии судебных гарантий;</span></p>",
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— взятие заложников;</span></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— применение наказаний без судебного решения, вынесенного надлежащим образом учрежденным судом, при наличии судебных гарантий;</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— посягательство на неприкосновенность, в частности всякие виды увечья, жестокое обращение, пытки и истязания;</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— осуждение и применение наказаний без предварительного судебного решения, вынесенного надлежащим образом учрежденным судом, при наличии судебных гарантий;</span></p>",
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— посягательство на жизнь и неприкосновенность, в частности всякие виды убийств, увечья, жестокое обращение, пытки и истязания;</span></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— осуждение и применение наказаний без предварительного судебного решения, вынесенного надлежащим образом учрежденным судом, при наличии судебных гарантий;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— посягательство на человеческое достоинство, в частности оскорбительное и унижающее обращение;</span></p>",
 				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— посягательство на неприкосновенность, в частности всякие виды увечья, жестокое обращение, пытки и истязания;</span></p>",
+				"isTrue": false
 			}
 		],
 		"isTrue": true
@@ -557,15 +557,15 @@ const questions = [
 		"title": "Рабоче-крестьянская Красная Армия была сформирована",
 		"answers": [
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1924 году</span></p>",
+				"isTrue": false
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1918 году</span></p>",
 				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1917 году</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1924 году</span></p>",
 				"isTrue": false
 			},
 			{
@@ -3863,6 +3863,10 @@ const questions = [
 		"title": "Русские солдаты смогли захватить земли Казанского ханства",
 		"answers": [
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1554 году</span></p>",
+				"isTrue": false
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1556 году</span></p>",
 				"isTrue": false
 			},
@@ -3873,10 +3877,6 @@ const questions = [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1558 году</span></p>",
 				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1554 году</span></p>",
-				"isTrue": false
 			}
 		],
 		"isTrue": true
@@ -3885,15 +3885,15 @@ const questions = [
 		"title": "Федеральный закон «О статусе военнослужащих» состоит из",
 		"answers": [
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">35 статей, которые включены в четыре главы.</span></p>",
+				"isTrue": false
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">30 статей, которые включены в три главы.</span></p>",
 				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">25 статей, которые включены в две главы.</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">35 статей, которые включены в четыре главы.</span></p>",
 				"isTrue": false
 			}
 		],
@@ -3937,27 +3937,27 @@ const questions = [
 		"title": "Вооруженные Силы предназначены:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии, направленной против Российской Федерации;</span></p>",
-				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для вооруженной защиты неприкосновенности границ Российской Федерации;</span></p>",
-				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии, направленной против Российской Федерации и ее союзников;</span></p>",
-				"isTrue": false
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для вооруженной защиты целостности и неприкосновенности территории Российской Федерации;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для выполнения задач в соответствии с международными договорами Российской Федерации;</span></p>",
 				"isTrue": true
 			},
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии, направленной против Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии против союзных государств в соответствии с международными договорами Российской Федерации;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии, направленной против Российской Федерации и ее союзников;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для вооруженной защиты неприкосновенности границ Российской Федерации;</span></p>",
 				"isTrue": false
 			}
 		],
@@ -3967,24 +3967,16 @@ const questions = [
 		"title": "Дисциплинарная ответственность военнослужащих характеризуется следующими особенностями:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не различается в зависимости от составов и категорий военнослужащих;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">предусматривает привлечение к дисциплинарной ответственности только прямым командиром (начальником);</span></p>",
 				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">включает специальные виды дисциплинарных взысканий;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">различается в зависимости от составов и категорий военнослужащих;</span></p>",
 				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">распространяется строго на определенный круг лиц;</span></p>",
 				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">включает не специальные виды дисциплинарных взысканий;</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">предусматривает привлечение к дисциплинарной ответственности только прямым командиром (начальником);</span></p>",
-				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">распространяется на не определенный круг лиц;</span></p>",
@@ -3995,7 +3987,15 @@ const questions = [
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">различается в зависимости от составов и категорий военнослужащих;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">включает не специальные виды дисциплинарных взысканий;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не различается в зависимости от составов и категорий военнослужащих;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">включает специальные виды дисциплинарных взысканий;</span></p>",
 				"isTrue": true
 			}
 		],
@@ -4093,11 +4093,11 @@ const questions = [
 		"title": "Статья 6 Устава Международного военного трибунала закрепляет право судить и наказывать лиц, которые совершили любое из следующих преступлений:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против человечности;</span></p>",
-				"isTrue": true
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против собственности и культурных ценностей;</span></p>",
+				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- военные преступления, а именно: нарушение законов или обычаев войны;</span></p>",
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- преступления против мира;</span></p>",
 				"isTrue": true
 			},
 			{
@@ -4105,11 +4105,11 @@ const questions = [
 				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против собственности и культурных ценностей;</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- военные преступления, а именно: нарушение законов или обычаев войны;</span></p>",
+				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- преступления против мира;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против человечности;</span></p>",
 				"isTrue": true
 			}
 		],
@@ -4427,7 +4427,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": true
+		"isTrue": false
 	},
 	{
 		"title": "1.3 Раскрыть порядок хранения учебных патронов.",
@@ -6281,6 +6281,400 @@ const questions = [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральная пограничная служба;</span></p>",
 				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Смоленская область пополнила «коллекцию» новых земель",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1518 году</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1516 году</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1514 году</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1512 году</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Рекрутский набор заменялся всесословной повинностью",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">с 1 января 1874 года</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">с 1 января 1872 года</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">с 1 января 1870 года</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">с 1 января 1868 года</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "В настоящее время Вооруженные Силы Российской Федерации состоят из\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Ракетные войска стратегического назначения;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Военно-морской флот;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Ракетные войска и артиллерию;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Специальные войска;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Воздушно-десантные войска;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Военно-воздушные силы;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Танковые войска;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Воздушно-космические силы;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Ракетные войска специального назначения;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Сухопутные войска;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Мотострелковые войска;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Воздушно-штурмовые войска;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- Военно-морские силы;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Официальная история развития русского военно-морского флота начинается",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">с 30 октября 1696 года</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">с 30 ноября 1696 года</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">с 30 ноября 1698 года</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">с 30 октября 1698 года</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Закон об обязательной военной службе в РККА был принят",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1924 году</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1925 году</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1917 году</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1918 году</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Комбатантами в морской войне помимо лиц являются:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— военные корабли всех классов и типов (подводные и надводные);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— гражданские самолеты и иные летательные аппараты, не входящие в состав авиации ВМФ, переоборудованные в военные и отвечающие определенным условиям;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— военные самолеты и иные летательные аппараты, входящие в состав авиации ВМФ;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— паромы и нефтеналивные суда всех классов и типов;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— вспомогательные суда ВМФ;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— военные катера всех классов и типов;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— торговые суда, переоборудованные в военные корабли и отвечающие определенным условиям;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Не комбатанты",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это лица, которые принадлежат к составу вооруженных сил, оказывают помощь этим вооруженным силам, но сами непосредственно в боевых действиях не участвуют.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это сражающиеся, т. е, лица, входящие и состав вооруженных сил и непосредственно ведущие во время войны боевые действия против неприятеля с оружием в руках.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">— это лица, которые не принадлежат к составу вооруженных сил, не оказывают помощь этим вооруженным силам, сами непосредственно в боевых действиях не участвуют.<br></span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Запрещенные способы ведения войны:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— объявлять, что никому не будет пощады;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— незаконно пользоваться парламентерским или национальным флагом, флагом Красного Креста, военными знаками и форменной одеждой неприятеля;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— взятие заложников;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">— пользоваться парламентерским или национальным флагом, флагом Красного Креста, военными знаками и форменной одеждой неприятеля.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— убивать или ранить лиц, принадлежащих к населению или войскам неприятеля;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— убивать или ранить неприятеля, который, не положив оружие или имея средства защищаться, безусловно сдался;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— убивать или ранить неприятеля, который, положив оружие или не имея больше средств защищаться, безусловно сдался;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— предательски убивать или ранить лиц, принадлежащих к населению или войскам неприятеля;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Театр военных действий",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это вся территория воюющих государств, на которой они потенциально могут вести военные операции.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">— это территория, на которой вооруженные силы воюющих проводят военные операции.</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Федеральный закон «О воинской обязанности и военной службе» состоит из",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">55 статей, которые включены в семь разделов.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">65 статей, которые включены в девять разделов.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">75 статей, которые включены в десять разделов.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Текст Военной присяги содержит",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">Статья 40 Федерального закона «О воинской обязанности и военной службе»</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Статья 20 Федерального закона «О статусе военнослужащих»</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Статья 1 Устава внутренней службы ВС РФ</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "К военнослужащим относятся:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">прапорщики и мичманы, курсанты военных профессиональных образовательных организаций и военных образовательных организаций высшего образования, сержанты и старшины, солдаты и матросы, проходящие военную службу по контракту;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">офицеры, прапорщики и мичманы, курсанты военных профессиональных образовательных организаций и военных образовательных организаций высшего образования, сержанты и старшины, солдаты и матросы, проходящие военную службу по контракту;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">офицеры, сержанты, старшины, солдаты и матросы, проходящие военную службу по призыву, курсанты военных профессиональных образовательных организаций и военных образовательных организаций высшего образования до заключения с ними контракта о прохождении военной службы;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">сержанты, старшины, солдаты и матросы, проходящие военную службу по призыву, курсанты военных профессиональных образовательных организаций и военных образовательных организаций высшего образования до заключения с ними контракта о прохождении военной службы;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Права и свободы военнослужащих, граждан, уволенных с военной службы, и членов их семей раскрываются в",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Статье 2. Федерального закона «О воинской обязанности и военной службе»</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Статье 22. Федерального закона «О воинской обязанности и военной службе»</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Главе III. Федерального закон «О статусе военнослужащих»</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Главе II. Федерального закон «О статусе военнослужащих»</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Военнослужащий освобождается от юридической ответственности в случае\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не преодолимого обстоятельства;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">крайней необходимости;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">необходимой обороны;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">конвоирования;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">исполнения общих обязанностей;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">захвата заложников;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">исполнения приказа;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в определенных случаях исполнения обязанностей военной службы;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">задержания;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">физического принуждения;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Порядок обучения граждан по программам военной подготовки в военных учебных центрах раскрывает",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">Статья 20 Федерального закона «О воинской обязанности и военной службе»</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Статья 20 Федерального закона «О статусе военнослужащих»</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Приложение 13 Устава внутренней службы ВС РФ</span></p>",
+				"isTrue": false
 			}
 		],
 		"isTrue": true
