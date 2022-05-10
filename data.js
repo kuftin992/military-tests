@@ -584,30 +584,30 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">объявление амнистии;</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение на должность Генерального прокурора РФ, освобождение его от должности;</span></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">дача согласия Президенту на назначение Председателя Правительства;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение на должность Генерального прокурора РФ, освобождение его от должности;</span></p>",
 				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">дача согласия Президенту на назначение Председателя Правительства;</span></p>",
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">назначение на должность и освобождение от должности Председателя Центрального банка РФ;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">решение вопроса\nо доверии Правительству;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">выдвижение обвинения против Президента РФ для отрешения его от должности;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Кому подчиняется часовой\n\n(выберете все правильные ответы)",
@@ -3742,14 +3742,14 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">предназначение, порядок организации и несения гарнизонной и караульной служб, права и обязанности должностных лиц гарнизона и военнослужащих, несущих эти службы, а также регламентирует проведение гарнизонных мероприятий с участием войск.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">предназначение, порядок организации и несения гарнизонной и караульной служб, права и обязанности должностных лиц караула, распорядок дня и регламент служебного времени, а также регламентирует проведение гарнизонных мероприятий с участием войск.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "При определении вида поощрения принимаются во внимание:\n\n(выберете все правильные ответы)",
@@ -4356,7 +4356,7 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p>нет правильных вариантов ответа.</p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p>Учебное оружие, за исключением пи­столетов, хранится вместе с боевым&nbsp;при этом место его хранения обозначается надписью: «Учебное оружие» и отделяется перегородкой</p>",
@@ -4364,7 +4364,7 @@ const questions = [
 			},
 			{
 				"html": "<p>Учебное оружие, за\n                                    исключением пистолетов, хранится отдельно от боевого оружия</p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p>Учебное оружие, за исключением спортивного оружия и оружия ограниченного поражения, пи­столетов, хранится вместе с боевым&nbsp;при\n                                    этом место его хранения обозначается надписью: «Учебное оружие» и\n                                    отделяется перегородкой</p>",
@@ -4375,7 +4375,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.3 Раскрыть опись ящика с боеприпасами, хранящимися в комнате хранения оружия и боеприпасов.",
