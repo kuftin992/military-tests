@@ -622,11 +622,11 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- начальнику караула;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- помощнику начальника караула;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- своему командиру роты;</span></p>",
@@ -637,7 +637,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.2 Раскрыть третий период выстрела.",
@@ -670,14 +670,14 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Самое крупное в России соленое море-озеро - Каспийское море (371 тыс. кв. км).</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Самое крупное в России соленое море-озеро - Азовское море (371,537 тыс. кв. км).</span></p>",
-				"isTrue": true
+				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.4 Раскрыть порядок разряжания оружия, автомата АК-74.",
@@ -710,7 +710,7 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">два часа, в четный или нечетный час.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">три часа, в четный или нечетный час.</span></p>",
@@ -718,14 +718,14 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">четыре часа, в четный или нечетный час.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">один час, в четный или нечетный час.</span></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.1 Как измеряется калибр в западных странах?",
@@ -2148,11 +2148,11 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p>Боеприпасы к оружию учитываются пономенклатурно, с указанием:</p>\n\n                                <ul><li>калибра, </li><li>типа, </li><li>действия пуль, </li><li>номера партии,<br></li><li>завода-изготовителя, </li><li>года их изготовления. </li></ul><br><p></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p></p><p>Боеприпасы к оружию учитываются пономенклатурно, с указанием:</p>\n\n                                    <ul><li>калибра, </li><li>типа, </li><li>действия пуль, </li><li>завода-изготовителя, </li><li>года их изготовления. </li></ul><p></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p></p><p>Боеприпасы к оружию учитываются пономенклатурно, с указанием:</p>\n\n                                    <ul><li>калибра, </li><li>типа, </li><li>действия пуль, </li><li><a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=38&amp;displayformat=dictionary\" title=\"Глоссарий: Индекс\" class=\"glossary autolink concept glossaryid3\">индекс</a>а порохового заряда,<br></li><li>номера партии,<br></li><li>года их изготовления. </li></ul><p></p>",
@@ -2167,7 +2167,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "2.1 Раскрыть работу частей и механизмов автомата АК-74 при производстве одиночного выстрела.",
@@ -3678,15 +3678,15 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">д) предупреждение о неполном служебном соответствии;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">а) выговор;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">е) снижение в воинской должности ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">и) досрочное увольнение с военной службы в связи с невыполнением условий контракта;</span></p>",
@@ -3694,26 +3694,26 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">к) дисциплинарный арест;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">ж) снижение в воинском звании ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">б) строгий выговор;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">з) снижение в воинском звании со снижением в воинской должности ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в) лишение очередного увольнения из расположения воинской части или с корабля на берег;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "В караульном помещении запрещается",
