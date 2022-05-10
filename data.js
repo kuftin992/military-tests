@@ -48,11 +48,11 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим не применяется на войне высшая мера насилия, т. е, физическое уничтожение, только плен;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- право применять технику и вооружение;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим применяется на войне высшая мера насилия, т. е, физическое уничтожение;</span></p>",
@@ -60,18 +60,18 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, имеют право на обращение с ними, как с военнопленными.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">- право применять военную силу;</span> </span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, не имеют право на обращение с ними, как с военнопленными.</span></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": true
+		"isTrue": false
 	},
 	{
 		"title": "Военнослужащий в воинском звании Сержант имеет право применить к провинившимся солдатам следующие виды взысканий:\n\n(выберете все правильные ответы)",
@@ -100,11 +100,11 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не менее одних суток отдыха.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не менее двух суток отдыха.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">одни сутки отдыха.</span></p>",
@@ -115,30 +115,30 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": true
+		"isTrue": false
 	},
 	{
 		"title": "Караулы бывают:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">комендантские;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">гарнизонные;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">постоянные;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">временные;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">внутренние (корабельные);</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">полевые;</span></p>",
@@ -153,7 +153,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": true
+		"isTrue": false
 	},
 	{
 		"title": "Командиры, должности которых в Уставе не упомянуты, в отношении подчиненных им военнослужащих пользуются дисциплинарной властью в соответствии с воинским званием, предусмотренным по занимаемой должности:\n\nмладший лейтенант, лейтенант и старший лейтенант - властью",
@@ -348,14 +348,14 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это территория, на которой вооруженные силы воюющих проводят военные операции.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это вся территория воюющих государств, на которой они потенциально могут вести военные операции.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			}
 		],
-		"isTrue": true
+		"isTrue": false
 	},
 	{
 		"title": "Третий этап - практическое занятие с отработкой действий всех лиц караула на постах в различных условиях обстановки проводится:",
@@ -539,15 +539,15 @@ const questions = [
 		"title": "Полномочия Правительства Российской Федерации в области обороны\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительство РФ<b><i> </i></b>рассматривает вопросы внутренней и внешней политики Российской Федерации в области обеспечения безопасности.</span></p>",
-				"isTrue": false
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительство РФ осуществляет меры по обеспечению обороны и несет в пределах своих полномочий ответственность за состояние и обеспечение Вооруженных Сил РФ, других войск, воинских формирований и федеральных органов.</span></p>",
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">На Правительство РФ возлагается организация разработки и выполнения государственных программ вооружения и развития всего оборонного промышленного комплекса.</span><b><i></i></b></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительство РФ осуществляет меры по обеспечению обороны и несет в пределах своих полномочий ответственность за состояние и обеспечение Вооруженных Сил РФ, других войск, воинских формирований и федеральных органов.</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительство РФ<b><i> </i></b>рассматривает вопросы внутренней и внешней политики Российской Федерации в области обеспечения безопасности.</span></p>",
 				"isTrue": false
 			}
 		],
@@ -3647,6 +3647,610 @@ const questions = [
 			{
 				"html": "<ul>\n                                    <li>Тип гранаты – Оборонительная</li>\n                                    <li>Вес гранаты&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- 530 гр.</li>\n                                    <li>Вес разрывного заряда&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - 92 гр.</li>\n                                    <li>Тип запала&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- УДЗ</li>\n                                    <li>Время горения замедлителя&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- 3,3-4,3 сек</li>\n                                    <li>Радиус разлета убойных осколков &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 150 м</li>\n                                    <li>Радиус эффективного поражения живой силы&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- 25 м</li>\n                                    <li>Средняя дальность броска&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - 20-40 м</li>\n                                </ul>",
 				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "О примененных дисциплинарных взысканиях сержантам объявляется:",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- лично, на совещании или перед строем сержантов или старшин;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- лично, на совещании прапорщиков или мичманов, а также на совещании прапорщиков, мичманов и офицеров;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- лично или перед строем;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "К солдатам, матросам, сержантам и старшинам, проходящим военную службу по призыву, применяются следующие виды дисциплинарных взысканий:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">г) лишение нагрудного знака отличника;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">д) предупреждение о неполном служебном соответствии;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">а) выговор;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">е) снижение в воинской должности ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">и) досрочное увольнение с военной службы в связи с невыполнением условий контракта;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">к) дисциплинарный арест;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">ж) снижение в воинском звании ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">б) строгий выговор;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">з) снижение в воинском звании со снижением в воинской должности ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в) лишение очередного увольнения из расположения воинской части или с корабля на берег;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "В караульном помещении запрещается",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">оба ответа правильные.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">использовать личные средства связи, петь и играть на музыкальных инструментах.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">оба ответа не правильные.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">смотреть телепередачи слушать радиотрансляцию через головные телефоны, читать, писать, играть в шахматы и шашки.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Устав гарнизонной и караульной служб Вооруженных Сил Российской Федерации определяет",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">предназначение, порядок организации и несения гарнизонной и караульной служб, права и обязанности должностных лиц гарнизона и военнослужащих, несущих эти службы, а также регламентирует проведение гарнизонных мероприятий с участием войск.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">предназначение, порядок организации и несения гарнизонной и караульной служб, права и обязанности должностных лиц караула, распорядок дня и регламент служебного времени, а также регламентирует проведение гарнизонных мероприятий с участием войск.</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "При определении вида поощрения принимаются во внимание:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- выслуга лет;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">- характер заслуг;</span> </span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- семейное положение;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- усердие и отличия военнослужащего;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- а также прежнее отношение его к военной службе;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "1.3 Раскрыть порядок выдачи стрелкового оружия и боеприпасов личному составу подразделения по тревоге.",
+		"answers": [
+			{
+				"html": "В целях ускорения выдачи стрелкового оружия и боеприпасов на случай тревоги заблаговременно заводится книга выдачи оружия и боеприпасов по тревоге в которой делается запись, которая при необходимости уточняется.",
+				"isTrue": false
+			},
+			{
+				"html": "нет правильных вариантов ответа.",
+				"isTrue": false
+			},
+			{
+				"html": "В целях ускорения выдачи стрелкового оружия и боеприпасов на случай тревоги в книге выдачи оружия и боеприпасов, в специально отведенном месте, заблаговременно делается запись, которая при необходимости уточняется.",
+				"isTrue": true
+			},
+			{
+				"html": "В целях ускорения выдачи стрелкового оружия и боеприпасов на случай тревоги заблаговременно заводится книга выдачи оружия и боеприпасов по тревоге в которой делается запись, которая при необходимости уточняется и хранится у командира роты.",
+				"isTrue": false
+			},
+			{
+				"html": "В целях ускорения выдачи стрелкового оружия и боеприпасов на случай тревоги заблаговременно заводится ведомость выдачи оружия и боеприпасов по тревоге в которой делается запись, которая при необходимости уточняется и хранится у командира или старшины роты.",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Военнослужащий в воинском звании Капитан имеет право применить к отличившимся солдатам следующие виды поощрений:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">наградить личной фотографией военнослужащего, снятого при развернутом Боевом знамени воинской части;</span></li>\n                            </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">наградить грамотой, ценным подарком или деньгами;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">объявить благодарность;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">присвоить воинское звание ефрейтора (старшего матроса);</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">снять ранее примененное дисциплинарное взыскание;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">сообщить на родину (по месту жительства родителей военнослужащего или лиц, на воспитании которых он находился) либо по месту прежней работы (учебы) военнослужащего об образцовом выполнении им воинского долга и о полученных поощрениях;</span></li>\n                                </ul>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "В каком случае Начальник караула не обязан вызывать караул \"в ружье\"",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">побега (предупреждения побега) или возникновения беспорядка среди военнослужащих, содержащихся на гауптвахте (в дисциплинарной воинской части);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">несанкционированного срабатывания (выхода из строя) технических средств охраны;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">&nbsp;объявления проверки в гарнизоне (воинской части);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">возникновения пожара на охраняемом объекте или в караульном помещении либо угрожающего им стихийного бедствия;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">нападения либо непосредственной угрозы нападения (физического воздействия) на охраняемые объекты, часовых, смену караульных (контрольно-охранную группу) или на караульное помещение;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "Русские солдаты смогли захватить земли Казанского ханства",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1556 году</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1552 году</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1558 году</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в 1554 году</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "Федеральный закон «О статусе военнослужащих» состоит из",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">30 статей, которые включены в три главы.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">25 статей, которые включены в две главы.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">35 статей, которые включены в четыре главы.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Кто из перечисленных лиц не входит в состав караула:",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула по службе караульных собак;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула по охране особо важных объектов;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">караульные по числу постов и смен;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">вожатые караульных собак;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">разводящие;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">водители транспортных средств;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">помощник начальника караула (<a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=20&amp;displayformat=dictionary\" title=\"Глоссарий: оператор\" class=\"glossary autolink concept glossaryid1\">оператор</a>) по техническим средствам охраны или смена <a href=\"https://e-learning.bmstu.ru/mil/mod/glossary/showentry.php?eid=20&amp;displayformat=dictionary\" title=\"Глоссарий: оператор\" class=\"glossary autolink concept glossaryid1\">оператор</a>ов (два-три человека, один из которых может быть назначен помощником начальника караула по техническим средствам охраны);</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Вооруженные Силы предназначены:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии, направленной против Российской Федерации;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для вооруженной защиты неприкосновенности границ Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии, направленной против Российской Федерации и ее союзников;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для вооруженной защиты целостности и неприкосновенности территории Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для выполнения задач в соответствии с международными договорами Российской Федерации;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для отражения агрессии против союзных государств в соответствии с международными договорами Российской Федерации;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "Дисциплинарная ответственность военнослужащих характеризуется следующими особенностями:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не различается в зависимости от составов и категорий военнослужащих;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">включает специальные виды дисциплинарных взысканий;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">распространяется строго на определенный круг лиц;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">включает не специальные виды дисциплинарных взысканий;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">предусматривает привлечение к дисциплинарной ответственности только прямым командиром (начальником);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">распространяется на не определенный круг лиц;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">предусматривает привлечение к дисциплинарной ответственности любым из прямых командиров (начальников);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">различается в зависимости от составов и категорий военнослужащих;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "Предусматривается следующий состав суточного полкового наряда:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;ответственные по подразделениям;</span></li>\n                            </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">посыльные;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">дежурный по штабу полка;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный и помощники дежурного по контрольно-пропускному пункту;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный сигналист-барабанщик;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">пожарный наряд;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">командир дежурных сил (КДС);</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный и дневальные по парку, а также механики-водители (водители) дежурных тягачей;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;караул;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">патрули;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный по полку;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный по столовой и рабочие в столовую;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">дежурное подразделение;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;помощник дежурного по полку;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;старшие дежурных машин;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;дежурный фельдшер или санитарный инструктор и дневальные по медицинскому пункту;</span></li>\n                                </ul>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "Комбатанты",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это лица, которые принадлежат к составу вооруженных сил, оказывают помощь этим вооруженным силам, но сами непосредственно в боевых действиях не участвуют.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это лица, которые не принадлежат к составу вооруженных сил, не оказывают помощь этим вооруженным силам, сами непосредственно в боевых действиях не участвуют.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">— это сражающиеся, т. е, лица, входящие и состав вооруженных сил и непосредственно ведущие во время войны боевые действия против неприятеля с оружием в руках.</span> </span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Статья 6 Устава Международного военного трибунала закрепляет право судить и наказывать лиц, которые совершили любое из следующих преступлений:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против человечности;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- военные преступления, а именно: нарушение законов или обычаев войны;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против международного права;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- преступления против собственности и культурных ценностей;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">- преступления против мира;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "Другие войска государства это:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">Войска национальной гвардии РФ;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Внутренние войска МВД РФ;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">Железнодорожные войска;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Войска Федерального агентства правительственной связи и информации при Президенте Российской Федерации;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Войска федеральной службы исполнения наказаний РФ;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Федеральная пограничная служба;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Спасательные воинские формирования Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "1.2 Раскрыть основной период выстрела.",
+		"answers": [
+			{
+				"html": "Основной период длится от начала горения порохового заряда до полного врезания оболочки пули в нарезы ствола.",
+				"isTrue": true
+			},
+			{
+				"html": "Основной период длится от начала движения пули до момента полного сгорания порохового заряда.&nbsp;",
+				"isTrue": false
+			},
+			{
+				"html": "Основной период длит­ся от момента вылета пули из канала ствола до момента прекращения действия пороховых газов на пулю.&nbsp;",
+				"isTrue": false
+			},
+			{
+				"html": "Основной период длится от момента полного сгорания порохового заряда до момента вылета пули из канала ствола.&nbsp;",
+				"isTrue": false
+			},
+			{
+				"html": "нет правильных вариантов ответа.",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "2.4 Доложить оценочные нормативы выполнения учебных стрельб 1 УУС из пистолета ПМ.",
+		"answers": [
+			{
+				"html": "«отлично»выбить 23 очка«хорошо»выбить 19 очков«удовлетворительно»выбить 15 очков",
+				"isTrue": false
+			},
+			{
+				"html": "«отлично»выбить 28 очков«хорошо»выбить 24 очко«удовлетворительно»выбить 21 очко",
+				"isTrue": true
+			},
+			{
+				"html": "«отлично»выбить 25 очков«хорошо»выбить 21 очко«удовлетворительно»выбить 18 очков",
+				"isTrue": false
+			},
+			{
+				"html": "«отлично»выбить 24 очков«хорошо»выбить 20 очко«удовлетворительно»выбить 17 очков",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "При ведении огня способом выжидания цели",
+		"answers": [
+			{
+				"html": "автоматчик (пулеметчик) прицеливается в точку, выбранную впереди цели, и с подходом цели к этой точке на величину полутора-двух табличных упреждений, прочно удерживая автомат (пулемет), производит длинную очередь",
+				"isTrue": false
+			},
+			{
+				"html": "нет правильного ответа",
+				"isTrue": true
+			},
+			{
+				"html": "автоматчик (пулеметчик), взяв требуемое упреждение и перемещая автомат (пулемет) в сторону движения цели, в момент наиболее правильной наводки ведет огонь короткими или длинными очередями в зависимости от дальности стрельбы и от скорости движения цели",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "1.3 Раскрыть опись с патронами, хранящимися в комнате хранения  оружия и боеприпасов.",
+		"answers": [
+			{
+				"html": "нет правильных вариантов ответа.",
+				"isTrue": false
+			},
+			{
+				"html": "В ящике с патронами должна быть опись, подписанная командиром подразделения (начальником штаба).В описи указываются наименование и коли­чество патронов, номер завода, номер партии, тип пули, и год их изготовления.",
+				"isTrue": false
+			},
+			{
+				"html": "В ящике с патронами должна быть опись, подписанная старшиной подразделения (начальником штаба).В описи указываются наименование и коли­чество патронов, номер завода, номер партии, тип пули, и год их изготовления.",
+				"isTrue": true
+			},
+			{
+				"html": "В ящике с патронами должна быть опись, подписанная старшиной подразделения (начальником штаба).В описи указываются наименование и коли­чество патронов, номер завода и год их изготовления.",
+				"isTrue": false
+			},
+			{
+				"html": "В ящике с патронами должна быть опись, подписанная командиром подразделения (начальником штаба).В описи указываются наименование и коли­чество патронов, номер завода и год их изготовления.",
+				"isTrue": false
+			}
+		],
+		"isTrue": false
+	},
+	{
+		"title": "Непосредственным начальником военнослужащего является",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">ближайший к подчиненному прямой начальник.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">начальник, которому военнослужащий подчинен по службе, хотя бы и временно.</span></p>",
+				"isTrue": true
 			}
 		],
 		"isTrue": false
