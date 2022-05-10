@@ -1654,8 +1654,19 @@
     const min = s => s.replace(/[^а-яА-Я0-9]/ig, '');
 
 	const data = questions;
+	const errors = [];
+	let count = 0;
 
-	console.log(data);
+	data.map((q) => {
+        if (!q.isTrue) {
+			count++;
+
+			errors.push(q);
+        }
+    });
+
+	console.log(`Количесво ошибок ${count}, массив с ошибками:`);
+	console.log(errors);
 
     document.getElementById('superInput').addEventListener('change', (e) => {
 		data.map((el) => {
