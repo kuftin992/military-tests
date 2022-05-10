@@ -398,7 +398,7 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— посягательство на человеческое достоинство, в частности оскорбительное и унижающее обращение;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— взятие заложников;</span></p>",
@@ -414,14 +414,14 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— посягательство на жизнь и неприкосновенность, в частности всякие виды убийств, увечья, жестокое обращение, пытки и истязания;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— осуждение и применение наказаний без предварительного судебного решения, вынесенного надлежащим образом учрежденным судом, при наличии судебных гарантий;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "2.2 Раскрыть порядок неполной сборки автомата АК-74.",
@@ -450,11 +450,11 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Правительство РФ;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">федеральные службы и др;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">государственные комитеты РФ;</span></p>",
@@ -466,18 +466,18 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">федеральные министерства;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">комитеты РФ;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">органы местного самоуправления;</span></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Внутренний порядок достигается:\n\n(выберете все правильные ответы)",
@@ -3756,26 +3756,26 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- выслуга лет;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">- характер заслуг;</span> </span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- семейное положение;</span></p>",
 				"isTrue": true
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- усердие и отличия военнослужащего;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- семейное положение;</span></p>",
 				"isTrue": false
 			},
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- усердие и отличия военнослужащего;</span></p>",
+				"isTrue": true
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- а также прежнее отношение его к военной службе;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "1.3 Раскрыть порядок выдачи стрелкового оружия и боеприпасов личному составу подразделения по тревоге.",
@@ -3808,11 +3808,11 @@ const questions = [
 		"answers": [
 			{
 				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">наградить личной фотографией военнослужащего, снятого при развернутом Боевом знамени воинской части;</span></li>\n                            </ul>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">наградить грамотой, ценным подарком или деньгами;</span></li>\n                                </ul>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">объявить благодарность;</span></li>\n                                </ul>",
@@ -3824,21 +3824,21 @@ const questions = [
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">снять ранее примененное дисциплинарное взыскание;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">сообщить на родину (по месту жительства родителей военнослужащего или лиц, на воспитании которых он находился) либо по месту прежней работы (учебы) военнослужащего об образцовом выполнении им воинского долга и о полученных поощрениях;</span></li>\n                                </ul>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "В каком случае Начальник караула не обязан вызывать караул \"в ружье\"",
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">побега (предупреждения побега) или возникновения беспорядка среди военнослужащих, содержащихся на гауптвахте (в дисциплинарной воинской части);</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">несанкционированного срабатывания (выхода из строя) технических средств охраны;</span></p>",
@@ -3846,7 +3846,7 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">&nbsp;объявления проверки в гарнизоне (воинской части);</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">возникновения пожара на охраняемом объекте или в караульном помещении либо угрожающего им стихийного бедствия;</span></p>",
@@ -3857,7 +3857,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Русские солдаты смогли захватить земли Казанского ханства",
