@@ -99,6 +99,10 @@ const questions = [
 		"title": "Военнослужащим по призыву предоставляется еженедельно",
 		"answers": [
 			{
+				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">двое суток отдыха.</span></p>",
+				"isTrue": false
+			},
+			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не менее одних суток отдыха.</span></p>",
 				"isTrue": true
 			},
@@ -108,10 +112,6 @@ const questions = [
 			},
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">одни сутки отдыха.</span></p>",
-				"isTrue": false
-			},
-			{
-				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">двое суток отдыха.</span></p>",
 				"isTrue": false
 			}
 		],
@@ -221,7 +221,15 @@ const questions = [
 		"title": "К общевоинским уставам ВС РФ относятся\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав внутренней службы ВС РФ;</span></li>\n                            </ul>",
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав гарнизонной, караульной и комендантской служб ВС РФ;</span></li>\n                            </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав военной полиции;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав гарнизонной и караульной служб ВС РФ;</span></li>\n                                </ul>",
 				"isTrue": true
 			},
 			{
@@ -229,24 +237,16 @@ const questions = [
 				"isTrue": false
 			},
 			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав гарнизонной и караульной служб ВС РФ;</span></li>\n                                </ul>",
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав внутренней службы ВС РФ;</span></li>\n                                </ul>",
 				"isTrue": true
 			},
 			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав военной полиции;</span></li>\n                                </ul>",
-				"isTrue": true
-			},
-			{
-				"html": "<ul>\n                                    <li><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">Строевой устав ВС РФ;</span>\n</span></li>\n                                </ul>",
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">Строевой устав ВС РФ;</span> </span></li>\n                                </ul>",
 				"isTrue": true
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Дисциплинарный устав ВС РФ;</span></li>\n                                </ul>",
 				"isTrue": true
-			},
-			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">Устав гарнизонной, караульной и комендантской служб ВС РФ;</span></li>\n                                </ul>",
-				"isTrue": false
 			}
 		],
 		"isTrue": true
@@ -3673,7 +3673,23 @@ const questions = [
 		"title": "К солдатам, матросам, сержантам и старшинам, проходящим военную службу по призыву, применяются следующие виды дисциплинарных взысканий:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">а) выговор;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">б) строгий выговор;</span></p>",
+				"isTrue": true
+			},
+			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">г) лишение нагрудного знака отличника;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">ж) снижение в воинском звании ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">з) снижение в воинском звании со снижением в воинской должности ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
 				"isTrue": true
 			},
 			{
@@ -3681,7 +3697,7 @@ const questions = [
 				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">а) выговор;</span></p>",
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">к) дисциплинарный арест;</span></p>",
 				"isTrue": true
 			},
 			{
@@ -3691,22 +3707,6 @@ const questions = [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">и) досрочное увольнение с военной службы в связи с невыполнением условий контракта;</span></p>",
 				"isTrue": false
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">к) дисциплинарный арест;</span></p>",
-				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">ж) снижение в воинском звании ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
-				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">б) строгий выговор;</span></p>",
-				"isTrue": true
-			},
-			{
-				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">з) снижение в воинском звании со снижением в воинской должности ефрейтора (старшего матроса) и сержанта (старшины);</span></p>",
-				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">в) лишение очередного увольнения из расположения воинской части или с корабля на берег;</span></p>",
@@ -3759,10 +3759,6 @@ const questions = [
 				"isTrue": false
 			},
 			{
-				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">- характер заслуг;</span> </span></p>",
-				"isTrue": true
-			},
-			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- семейное положение;</span></p>",
 				"isTrue": false
 			},
@@ -3772,6 +3768,10 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- а также прежнее отношение его к военной службе;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">- характер заслуг;</span> </span></p>",
 				"isTrue": true
 			}
 		],
@@ -3807,16 +3807,12 @@ const questions = [
 		"title": "Военнослужащий в воинском звании Капитан имеет право применить к отличившимся солдатам следующие виды поощрений:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
-				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">наградить личной фотографией военнослужащего, снятого при развернутом Боевом знамени воинской части;</span></li>\n                            </ul>",
-				"isTrue": false
-			},
-			{
-				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">наградить грамотой, ценным подарком или деньгами;</span></li>\n                                </ul>",
-				"isTrue": false
-			},
-			{
-				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">объявить благодарность;</span></li>\n                                </ul>",
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">объявить благодарность;</span></li>\n                            </ul>",
 				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">наградить личной фотографией военнослужащего, снятого при развернутом Боевом знамени воинской части;</span></li>\n                                </ul>",
+				"isTrue": false
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">присвоить воинское звание ефрейтора (старшего матроса);</span></li>\n                                </ul>",
@@ -3825,6 +3821,10 @@ const questions = [
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">снять ранее примененное дисциплинарное взыскание;</span></li>\n                                </ul>",
 				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">наградить грамотой, ценным подарком или деньгами;</span></li>\n                                </ul>",
+				"isTrue": false
 			},
 			{
 				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">сообщить на родину (по месту жительства родителей военнослужащего или лиц, на воспитании которых он находился) либо по месту прежней работы (учебы) военнослужащего об образцовом выполнении им воинского долга и о полученных поощрениях;</span></li>\n                                </ul>",
@@ -7576,6 +7576,456 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">оба ответа правильные.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "В роте оборудуются ножная ванна с проточной водой (в комнате для умывания)",
+		"answers": [
+			{
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- на 25-30 человек, а также мойка на этажную казарменную секцию для стирки обмундирования военнослужащими.</span></li>\n                            </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- на 20-25 человек, а также мойка на этажную казарменную секцию для стирки обмундирования военнослужащими.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- на 30-35 человек, а также мойка на этажную казарменную секцию для стирки обмундирования военнослужащими.</span></li>\n                                </ul>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Комната для умывания оборудуется - из расчета один умывальник на",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">6-8 человек (при оборудовании жилыми ячейками с блоком санитарно-бытовых помещений - умывальник на 4-5 человек);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">3-5 человек (при оборудовании жилыми ячейками с блоком санитарно-бытовых помещений - умывальник на 2-3 человека);</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">5-7 человек (при оборудовании жилыми ячейками с блоком санитарно-бытовых помещений - умывальник на 3-4 человека);</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">2-5 человек (при оборудовании жилыми ячейками с блоком санитарно-бытовых помещений - умывальник на 1-2 человека);</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "В прикроватной тумбочке разрешается хранить",
+		"answers": [
+			{
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">книги, уставы, фотоальбомы, тетради и другие письменные принадлежности;</span></li>\n                            </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">носки и нательное белье;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">туалетные и бритвенные принадлежности;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family: times new roman, times, serif; font-size: medium;\">сигареты;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не скоропортящиеся продукты;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">носовые платки, подворотнички, банные принадлежности и другие мелкие предметы личного пользования;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">принадлежности для чистки одежды и обуви;</span></li>\n                                </ul>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Листы нарядов ведутся на каждый месяц отдельно:\n\nна солдат -",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">командирами отделений;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">старшиной роты;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">командирами взводов;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">заместителями командиров взводов;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Для размещения роты должны быть предусмотрены следующие помещения:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;комната для хранения оружия;</span></li>\n                            </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;место для курения;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">туалет;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;комната (место) для чистки оружия;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">класс боевой подготовки;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">место для чистки обуви;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">&nbsp;сушилка для обмундирования;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">место для хранения уборочного инвентаря;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">прачечная;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">канцелярия роты;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">комната бытового обслуживания;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">&nbsp;комната информирования и досуга (психологической разгрузки) военнослужащих;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">комната для умывания;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">кладовая для хранения имущества роты и личных вещей военнослужащих;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">комната (место) для спортивных занятий;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">душевая;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">&nbsp;спальное помещение (жилые комнаты);</span></li>\n                                </ul>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Военнослужащие представляются своим непосредственным начальникам в случаях:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">после выполнения приказа;</span></li>\n                            </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">при объявлении военнослужащему дисциплинарного взыскания или поощрения;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">награждения орденом или медалью;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">присвоения воинского звания;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-size: medium; font-family: times new roman, times, serif;\">назначения на воинскую должность;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">убытия в командировку, на лечение или в отпуск и по возвращении;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">сдачи воинской должности;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">для получения приказания;</span></li>\n                                </ul>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Общевоинские уставы Вооруженных Сил Российской Федерации утверждены",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">14 декабря 1994 года.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">14 декабря 1993 года.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">14 декабря 1992 года.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">14 декабря 1991 года.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Одновременно из подразделения может быть уволено не более",
+		"answers": [
+			{
+				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">30% военнослужащих.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">15% военнослужащих.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">25% военнослужащих.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">50% военнослужащих.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "По своему воинскому званию прапорщики и мичманы, проходящие военную службу, являются начальниками для:\n",
+		"answers": [
+			{
+				"html": "<p dir=\"ltr\" style=\"text-align: left;\"></p><h4>- для младших офицеров, сержантов,\n                                старшин, солдат и матросов одной с ними воинской части;</h4><br><p></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p dir=\"ltr\" style=\"text-align: left;\"></p><h4>- для сержантов, старшин, солдат\n                                    и матросов;</h4><br><p></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p dir=\"ltr\" style=\"text-align: left;\"></p><h4>- для сержантов, старшин,\n                                    солдат и матросов одной с ними воинской части;</h4><br><p></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Приказание это",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">– форма доведения младшим командирам (начальникам) задач по частным вопросам.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">– форма доведения командиром (начальником) задач до подчиненных по частным вопросам.</span> </span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Начальники, которым военнослужащие подчинены по службе, хотя бы и временно, являются",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">непосредственными начальниками.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">прямыми начальниками.</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "По своему воинскому званию генералы, адмиралы, полковники и капитаны 1 ранга проходящие военную службу являются начальниками для:\n",
+		"answers": [
+			{
+				"html": "<h4 dir=\"ltr\" style=\"text-align: left;\">- для прапорщиков, мичманов, сержантов, старшин,\n                                солдат и матросов;<br></h4>",
+				"isTrue": false
+			},
+			{
+				"html": "<p dir=\"ltr\" style=\"text-align: left;\"></p><h4><b>- для младших офицеров,\n                                    прапорщиков, мичманов, сержантов, старшин, солдат и матросов;</b></h4><p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p dir=\"ltr\" style=\"text-align: left;\"></p><h4>- для старших и младших офицеров,\n                                    прапорщиков, мичманов, сержантов, старшин, солдат и матросов;</h4><br><p></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Каждый военнослужащий должен быть ознакомлен со своей служебной карточкой под личную подпись",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- один раз в три месяца, а также перед перемещением или переводом к новому месту службы.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- один раз в шесть месяцев, а также перед перемещением или переводом к новому месту службы.</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- один раз в год, а также перед перемещением или переводом к новому месту службы.</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Командиры, должности которых в Уставе не упомянуты, в отношении подчиненных им военнослужащих пользуются дисциплинарной властью в соответствии с воинским званием, предусмотренным по занимаемой должности:\n\nстаршина, прапорщик, старший прапорщик - властью",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира взвода;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- старшины роты;</span></p>\n                                    <p></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- заместителя командира взвода;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Непосредственные командиры (начальники) должны докладывать по команде о применении ими поощрений и дисциплинарных взысканий на прапорщиков, мичманов и офицеров (кроме высших офицеров):",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командирам рот и им равным ежедневно;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- в вышестоящий штаб (орган военного управления) ежемесячно.</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командирам воинских частей еженедельно;</span></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "В штабе воинской части служебные карточки ведутся:",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- на командиров воинских частей и соединений;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- на офицеров и прапорщиков;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- на сержантов, прапорщиков и офицеров;</span></p>",
+				"isTrue": false
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Командиры, должности которых в Уставе не упомянуты, в отношении подчиненных им военнослужащих пользуются дисциплинарной властью в соответствии с воинским званием, предусмотренным по занимаемой должности:\n\nмайор, подполковник, - властью",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира роты;</span></p>\n                                <p></p>\n                                <p></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира полка;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира батальона;</span></p>\n                                    <p></p>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Командир в пределах своих прав обязан поощрять подчиненных за:\n\n(выберете все правильные ответы)",
+		"answers": [
+			{
+				"html": "<ul>\n                                <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">особые личные заслуги;</span></li>\n                            </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">усердие и отличие по службе;</span></li>\n                                </ul>",
+				"isTrue": true
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">проявленную отвагу и героизм;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">экономию моторесурса военной техники, разумное расходование боеприпасов, сбережение вооружения и военного имущества;</span></li>\n                                </ul>",
+				"isTrue": false
+			},
+			{
+				"html": "<ul>\n                                    <li><span style=\"font-family: times new roman, times, serif; font-size: medium;\">разумную инициативу;</span></li>\n                                </ul>",
+				"isTrue": true
+			}
+		],
+		"isTrue": true
+	},
+	{
+		"title": "Командиры, должности которых в Уставе не упомянуты, в отношении подчиненных им военнослужащих пользуются дисциплинарной властью в соответствии с воинским званием, предусмотренным по занимаемой должности:\n\nмладший сержант, сержант - властью",
+		"answers": [
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- заместителя командира взвода;</span></p>",
+				"isTrue": false
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- командира отделения;</span></p>",
+				"isTrue": true
+			},
+			{
+				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- старшины роты;</span></p>",
 				"isTrue": false
 			}
 		],
