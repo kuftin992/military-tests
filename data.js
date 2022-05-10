@@ -48,11 +48,11 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим не применяется на войне высшая мера насилия, т. е, физическое уничтожение, только плен;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- право применять технику и вооружение;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- к ним самим применяется на войне высшая мера насилия, т. е, физическое уничтожение;</span></p>",
@@ -60,18 +60,18 @@ const questions = [
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, имеют право на обращение с ними, как с военнопленными.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: medium;\"><span style=\"font-family: times new roman, times, serif;\">- право применять военную силу;</span> </span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">- комбатанты, попав в руки неприятеля, не имеют право на обращение с ними, как с военнопленными.</span></p>",
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Военнослужащий в воинском звании Сержант имеет право применить к провинившимся солдатам следующие виды взысканий:\n\n(выберете все правильные ответы)",
@@ -100,11 +100,11 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не менее одних суток отдыха.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">не менее двух суток отдыха.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p style=\"margin-left: 30px;\"><span style=\"font-family: times new roman, times, serif; font-size: medium;\">одни сутки отдыха.</span></p>",
@@ -115,30 +115,30 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Караулы бывают:\n\n(выберете все правильные ответы)",
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">комендантские;</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">гарнизонные;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-size: medium; font-family: times new roman, times, serif;\">постоянные;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">временные;</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">внутренние (корабельные);</span></p>",
-				"isTrue": false
+				"isTrue": true
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">полевые;</span></p>",
@@ -153,7 +153,7 @@ const questions = [
 				"isTrue": false
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Командиры, должности которых в Уставе не упомянуты, в отношении подчиненных им военнослужащих пользуются дисциплинарной властью в соответствии с воинским званием, предусмотренным по занимаемой должности:\n\nмладший лейтенант, лейтенант и старший лейтенант - властью",
@@ -348,14 +348,14 @@ const questions = [
 		"answers": [
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это территория, на которой вооруженные силы воюющих проводят военные операции.</span></p>",
-				"isTrue": true
+				"isTrue": false
 			},
 			{
 				"html": "<p><span style=\"font-family: times new roman, times, serif; font-size: medium;\">— это вся территория воюющих государств, на которой они потенциально могут вести военные операции.</span></p>",
-				"isTrue": false
+				"isTrue": true
 			}
 		],
-		"isTrue": false
+		"isTrue": true
 	},
 	{
 		"title": "Третий этап - практическое занятие с отработкой действий всех лиц караула на постах в различных условиях обстановки проводится:",
