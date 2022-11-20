@@ -1670,7 +1670,7 @@ const questions = [
         "answers": [
             {
                 "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946712657_94\">крупномасштабным, тактическим.</div>",
-                "isTrue": false
+                "isTrue": true
             },
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946712657_97\">среднемасштабным, оперативным.</div>",
@@ -1690,7 +1690,7 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">f. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946712657_101\">среднемасштабным, тактическим.</div>",
-                "isTrue": true
+                "isTrue": false
             }
         ],
         "isTrue": true
@@ -1707,7 +1707,7 @@ const questions = [
                 "isTrue": true
             }
         ],
-        "isTrue": true
+        "isTrue": false
     },
     {
         "title": "Счёт широт ведётся",
@@ -2382,144 +2382,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Географические координаты пункта, расположенного на пересечении Гринвичского меридиана с экватором составляют:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">B = 00 градусов 00 минут 00 секунд Cев. (Ю.) широты;L = 90 градусов 00 минут 00 секунд Вост. (З.) долготы.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948184955_93\">B = 00 градусов 00 минут 00 секунд Cев. (Ю.) широты;L = 00 градусов 00 минут 00 секунд Вост. (З.) долготы.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "По содержанию географические карты подразделяются на:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948216863_93\">общегеографические и специальные карты.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">морские, сухопутные и полетные карты.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Для измерения кривых и извилистых линий на карте используют специальный прибор",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">_— _курсвиметр.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">_— _курсометр.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948500182_93\">— курвиметр.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 4130000;Y = 5610000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">На 87 км западнее осевого меридиана координатной зоны.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948503812_94\">На 110 км восточнее осевого меридиана координатной зоны.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "При определении курвиметром длины маршрута по карте масштаба 1:100 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">123 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">145 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948516695_93\">129 км.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">131 км.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "В системе географических координат положение любой точки земной поверхности относительно начала координат определяется",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">в линейной мере.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948604133_93\">в угловой мере.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "В системе плоских прямоугольных координат положение любой точки земной поверхности относительно начала координат определяется",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948629764_93\">в угловой мере.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948629764_96\">в линейной мере.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Географические координаты пункта, расположенного на пересечении Гринвичского меридиана с параллелью 50 градусов северной широты.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948644140_93\">B = 00 градусов 00 минут 00 секунд Cев. широты;L = 50 градусов 00 минут 00 секунд Вост. долготы.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948644140_96\">B = 50 градусов 00 минут 00 секунд Cев. широты;L = 00 градусов 00 минут 00 секунд Вост. долготы.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "За начало географических координат принята точка пересечения",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">меридиана 180 градусов (Противоположный Гринвичу) с экватором.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948649401_93\">начального (Гринвичского) меридиана с экватором.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Основные ТТХ мин ПМН: Масса  ВВ, г",
         "answers": [
             {
@@ -2694,132 +2556,18 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Главная точка внемасштабного условного знака представляющего собой сочетание нескольких фигур, находится",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре фигуры.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">—&nbsp;в середине основания.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948700077_93\">—&nbsp;в центре нижней фигуры.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине левого угла.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине правого угла.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Масштаб карты",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948724094_94\">—&nbsp;определяет степень уменьшения линий на карте относительно горизонтальных проложений соответствующих им линий на местности.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">—&nbsp;определяет степень уменьшения объектов на карте относительно соответствующих им реальных объектов на местности.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Карта масштаба 1 : 500 000 относится к",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948752671_94\">мелкомасштабным, оперативным.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Выберете номенклатуру листа карты масштаба 1:500 000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668948774210_93\">a. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Главная точка внемасштабного условного знака имеющего основание в виде прямого угла, находится",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;в середине основания.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948870895_93\">—&nbsp;в вершине угла.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре фигуры.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре нижней фигуры.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Служебными (боевыми) графическими документами называют документы, отработанные",
         "answers": [
             {
                 "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">графически на карте или схеме.</div>",
-                "isTrue": false
+                "isTrue": true
             },
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948921086_94\">на карте схеме или карточке.</div>",
-                "isTrue": true
+                "isTrue": false
             }
         ],
-        "isTrue": false
+        "isTrue": true
     },
     {
         "title": "Основные ТТХ мин ТМ-83: Масса, кг",
@@ -2966,58 +2714,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Выберете номенклатуру листа карты масштаба 1:50 000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949066859_93\">N-36-41-В</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Карта масштаба 1 : 1000 000 относится к",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949081907_94\">мелкомасштабным, оперативным.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Карта масштаба 1 : 100 000 относится к",
         "answers": [
             {
@@ -3026,7 +2722,7 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949139950_93\">крупномасштабным, тактическим.</div>",
-                "isTrue": true
+                "isTrue": false
             },
             {
                 "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
@@ -3034,10 +2730,10 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
-                "isTrue": false
+                "isTrue": true
             }
         ],
-        "isTrue": false
+        "isTrue": true
     },
     {
         "title": "Карта масштаба 1 : 200 000 относится к",
@@ -3056,32 +2752,6 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Выберете номенклатуру листа карты масштаба 1:200 000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949307577_93\">N-36-XXX</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
                 "isTrue": false
             }
         ],
@@ -3354,34 +3024,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "В каких координатных зонах находятся точки с координатами:Ха = 5764000;Уа = 18672300.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">В пятой.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949483926_93\">В восемнадцатой.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "КАРТА — это",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949489847_97\">изображение земной поверхности, построенное по определённым математическим правилам.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949489847_93\">изображение земной отображающее ее рельеф и все местные предметы.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Счёт долгот ведётся",
         "answers": [
             {
@@ -3391,20 +3033,6 @@ const questions = [
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">по дуге меридиана в обе стороны от экватора, от 0 до 90 градусов.</div>",
                 "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 5120000;Y = 5499000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">На 12 км восточнее осевого меридиана координатной зоны.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949563633_94\">На 1 км западнее осевого меридиана координатной зоны.</div>",
-                "isTrue": true
             }
         ],
         "isTrue": false
@@ -3426,54 +3054,6 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">247 км.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Выберете номенклатуру листа карты масштаба 1:25 000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-41-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949637035_93\">N-36-41-А-а</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "При определении курвиметром длины маршрута по карте масштаба 1:500 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">635 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">647 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949658377_94\">703 км.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">675 км.</div>",
                 "isTrue": false
             }
         ],
@@ -4144,5 +3724,425 @@ const questions = [
             }
         ],
         "isTrue": false
+    },
+    {
+        "title": "Масштаб карты",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;определяет степень уменьшения объектов на карте относительно соответствующих им реальных объектов на местности.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951647708_94\">—&nbsp;определяет степень уменьшения линий на карте относительно горизонтальных проложений соответствующих им линий на местности.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "В системе плоских прямоугольных координат положение любой точки земной поверхности относительно начала координат определяется",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951802797_96\">в линейной мере.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951802797_93\">в угловой мере.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "В каких координатных зонах находятся точки с координатами:Ха = 5764000;Уа = 18672300.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">В пятой.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951807952_93\">В восемнадцатой.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "В системе географических координат положение любой точки земной поверхности относительно начала координат определяется",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951813991_93\">в угловой мере.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">в линейной мере.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 4130000;Y = 5610000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951846824_93\">На 110 км восточнее осевого меридиана координатной зоны.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">На 87 км западнее осевого меридиана координатной зоны.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Главная точка внемасштабного условного знака имеющего основание в виде прямого угла, находится",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;в середине основания.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре нижней фигуры.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951864779_93\">—&nbsp;в центре фигуры.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951864779_96\">—&nbsp;в вершине угла.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Карта масштаба 1 : 500 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951880714_94\">мелкомасштабным, оперативным.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "КАРТА — это",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951983280_93\">изображение земной отображающее ее рельеф и все местные предметы.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668951983280_96\">изображение земной поверхности, построенное по определённым математическим правилам.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "За начало географических координат принята точка пересечения",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">меридиана 180 градусов (Противоположный Гринвичу) с экватором.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952047318_93\">начального (Гринвичского) меридиана с экватором.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "При определении курвиметром длины маршрута по карте масштаба 1:500 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">675 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">647 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">635 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952057428_94\">703 км.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "При определении курвиметром длины маршрута по карте масштаба 1:100 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">123 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">131 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">145 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952069211_94\">129 км.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:500 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-41</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952081319_94\">N-36-А</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:50 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952090907_94\">N-36-41-В</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 5120000;Y = 5499000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">На 12 км восточнее осевого меридиана координатной зоны.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952126439_93\">На 1 км западнее осевого меридиана координатной зоны.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Географические координаты пункта, расположенного на пересечении Гринвичского меридиана с экватором составляют:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">B = 00 градусов 00 минут 00 секунд Cев. (Ю.) широты;L = 90 градусов 00 минут 00 секунд Вост. (З.) долготы.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952134196_93\">B = 00 градусов 00 минут 00 секунд Cев. (Ю.) широты;L = 00 градусов 00 минут 00 секунд Вост. (З.) долготы.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Карта масштаба 1 : 1000 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952144650_94\">мелкомасштабным, оперативным.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:200 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952174453_93\">N-36-41</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952174453_96\">N-36-XXX</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Главная точка внемасштабного условного знака представляющего собой сочетание нескольких фигур, находится",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине левого угла.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952710141_93\">—&nbsp;в центре нижней фигуры.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре фигуры.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">—&nbsp;в середине основания.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине правого угла.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Географические координаты пункта, расположенного на пересечении Гринвичского меридиана с параллелью 50 градусов северной широты.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952727272_93\">B = 50 градусов 00 минут 00 секунд Cев. широты;L = 00 градусов 00 минут 00 секунд Вост. долготы.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">B = 00 градусов 00 минут 00 секунд Cев. широты;L = 50 градусов 00 минут 00 секунд Вост. долготы.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Для измерения кривых и извилистых линий на карте используют специальный прибор",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952733124_93\">— курвиметр.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">_— _курсвиметр.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">_— _курсометр.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:25 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-41-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952738566_94\">N-36-41-А-а</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "По содержанию географические карты подразделяются на:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668952853876_93\">общегеографические и специальные карты.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">морские, сухопутные и полетные карты.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
     }
 ];
