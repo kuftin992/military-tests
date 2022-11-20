@@ -1574,28 +1574,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "При определении курвиметром длины маршрута по карте масштаба 1:500 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946112858_94\">635 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946112858_97\">703 км.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">647 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">675 км.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Главная точка внемасштабного условного знака симметричной формы, находится",
         "answers": [
             {
@@ -2488,66 +2466,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Сущность проекции Гаусса заключается в том, что",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947665531_94\">поверхность земного эллипсоида делят меридианами, отстоящими друг от друга на 6 градусов, на 60 равных долготных зон и каждую из них при вычислении плоских координат и составлении карт развёртывают на плоскости независимо от других зон, эти зоны называются координатными.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">поверхность земного эллипсоида делят паралелями, отстоящими друг от друга на 6 градусов, на 60 равных долготных зон и каждую из них при вычислении плоских координат и составлении карт развёртывают на плоскости независимо от других зон, эти зоны называются координатными.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 5120000;Y = 5499000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">На 12 км восточнее осевого меридиана координатной зоны.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947734382_94\">На 1 км западнее осевого меридиана координатной зоны.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Разграфка и номенклатура листов карты масштаба 1:1 000 000.Ряды листов этой карты обозначаются",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">заглавными буквами русского алфавита (от А до Т) и счёт их ведётся от экватора к полюсам.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">заглавными буквами латинского алфавита (от А до V) и счёт их ведётся от экватора к полюсам.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">заглавными буквами латинского алфавита (от А до V) и счёт их ведётся от&nbsp; полюсов к экватору.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "В каких координатных зонах находятся точки с координатами:Ха = 5764000;Уа = 18672300.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">В восемнадцатой.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">В пятой.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Географические координаты пункта, расположенного на пересечении Гринвичского меридиана с экватором составляют:",
         "answers": [
             {
@@ -2570,56 +2488,6 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">морские, сухопутные и полетные карты.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "При определении курвиметром длины маршрута по карте масштаба 1:200 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948220848_93\">270 км.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">259 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">247 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">280 км.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "\n\n\nДанный условный знак обозначает",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948411620_94\"><p id=\"yui_3_17_2_1_1668948411620_93\">Пулеметы: 1 - ручной; 2 - ротный или станковый; 3 - крупнокалиберный</p></div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\"><p>Гранатометы: 1 - ручной противотанковый; 2 - станковый противотанковый; 3 - автоматический станковый</p></div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "КАРТА — это",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948425832_94\">изображение земной отображающее ее рельеф и все местные предметы.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">изображение земной поверхности, построенное по определённым математическим правилам.</div>",
                 "isTrue": false
             }
         ],
@@ -2928,258 +2796,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Из чего состоит лицевая часть фильтрующего противогаза?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948317744_97\">шлем-маски с очками, клапанной коробки, обтекателей и системы крепления на голове</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948317744_94\">шлем-маски с очками, обтекателя, гофрированной трубки</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, обтюратора, обтекателя</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, гофрированной трубки, противогазной коробки</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, клапанной коробки, обтюратора</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Как оказать первую помощь пострадавшему при утоплении?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948374473_94\">Очистить полость рта пострадавшего от слизи, песка и ила, приступить к проведению искусственного дыхания</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Промыть желудок и провести реанимационные мероприятиям</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Пострадавшего положить животом в себе на колено и ритмично надавливать ему на спину</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Из чего состоит Л-1?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948418392_94\">брюки, куртка с капюшоном, закрывающим лицо, перчатки</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">брюки, куртка с капюшоном, закрывающим лицо</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">куртка с капюшоном, брюки с чулками, двухпалые перчатки</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">защитный плащ, защитные чулки, защитные перчатки</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">куртка, брюки, защитное белье, головной убор, подшлемник</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "При отсутствии шин, чем может быть выполнена иммобилизация конечности при переломе? ",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Жгутом</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948442485_94\">Любым жестким предметом</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Веревкой</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">Ремнем</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">Бинтами</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Как оказать первую помощь пострадавшему при переломе нижних и верхних конечностей?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948475004_97\">Наложить шину, иммобилизировать конечность</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Дать обезболивающий препарат, наложить холодный компресс на место перелома</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948475004_94\">Наложить фиксирующую тугую повязку</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Что называется химическим оружием:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948508462_94\">боевое средство поражения, действие которого основано на использовании токсических свойств химических веществ</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">средство массового поражения людей, сельскохозяйственных животных и растений болезнетворными микробами и токсинами</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">отравляющие вещества и средства их применения</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Для защиты от хлора используется ",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948519469_94\">общевойсковой фильтрующий противогаз</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948519469_97\">общевойсковой изолирующий противогаз</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Как выполняется непрямой массаж сердца и искусственное дыхание, если реанимационные мероприятия проводят два человека одновременно?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948556334_94\">Один раз вдувать воздух, затем 5 раз надавливать в область сердца</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948556334_97\">После 2-3- вдуваний воздуха 10 раз надавливают на грудную клетку</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Один раз надавливают на грудную клетку, один раз вдувают воздух</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Основным поражающим фактором ядерного взрыва является:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">радиоактивное заражение</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948597133_94\">ударная волна&nbsp;</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">световое излучение</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Назовите группы СИЗ организма человека по характеру их воздействия:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_106\">средства защиты органов дыхания&nbsp;</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_103\">медицинские средства защиты</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_100\">средства защиты кожи&nbsp;</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_97\">химические средства защиты&nbsp;</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_94\">средства защиты слизистых оболочек&nbsp;</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "При каких условиях применяется изолирующий противогаз ИП-4?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">для работы под водой</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">всех вышеперечисленных</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948868752_94\">при недостатке кислорода в воздухе</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">в случаях когда фильтрующий противогаз не защищает органы дыхания от конкретного ОВ</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">при высоких концентрациях ОВ в воздухе</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "При наложении шины следует соблюдать следующее правило:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Шина накладывается всегда поверх одежды.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948905198_94\">Шина накладывается поверх одежды на закрытый перелом и поверх стерильной повязки на открытый.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Шина накладывается всегда поверх стерильной повязки.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Главная точка внемасштабного условного знака представляющего собой сочетание нескольких фигур, находится",
         "answers": [
             {
@@ -3214,20 +2830,6 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">—&nbsp;определяет степень уменьшения объектов на карте относительно соответствующих им реальных объектов на местности.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Счёт долгот ведётся",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948741590_94\">по дуге экватора или параллели в обе стороны от начального меридиана, от 0 до 180 градусов.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">по дуге меридиана в обе стороны от экватора, от 0 до 90 градусов.</div>",
                 "isTrue": false
             }
         ],
@@ -3280,32 +2882,6 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Выберете номенклатуру листа карты масштаба 1:25 000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948782364_93\">N-36-41-А-а</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36-41-А</div>",
                 "isTrue": false
             }
         ],
@@ -3668,5 +3244,429 @@ const questions = [
             }
         ],
         "isTrue": false
+    },
+    {
+        "title": "Из чего состоит лицевая часть фильтрующего противогаза?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948317744_97\">шлем-маски с очками, клапанной коробки, обтекателей и системы крепления на голове</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948317744_94\">шлем-маски с очками, обтекателя, гофрированной трубки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, обтюратора, обтекателя</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, гофрированной трубки, противогазной коробки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, клапанной коробки, обтюратора</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Как оказать первую помощь пострадавшему при утоплении?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948374473_94\">Очистить полость рта пострадавшего от слизи, песка и ила, приступить к проведению искусственного дыхания</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Промыть желудок и провести реанимационные мероприятиям</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Пострадавшего положить животом в себе на колено и ритмично надавливать ему на спину</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Из чего состоит Л-1?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948418392_94\">брюки, куртка с капюшоном, закрывающим лицо, перчатки</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">брюки, куртка с капюшоном, закрывающим лицо</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">куртка с капюшоном, брюки с чулками, двухпалые перчатки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">защитный плащ, защитные чулки, защитные перчатки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">куртка, брюки, защитное белье, головной убор, подшлемник</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При отсутствии шин, чем может быть выполнена иммобилизация конечности при переломе? ",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Жгутом</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948442485_94\">Любым жестким предметом</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Веревкой</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">Ремнем</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">Бинтами</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Как оказать первую помощь пострадавшему при переломе нижних и верхних конечностей?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948475004_97\">Наложить шину, иммобилизировать конечность</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Дать обезболивающий препарат, наложить холодный компресс на место перелома</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948475004_94\">Наложить фиксирующую тугую повязку</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Что называется химическим оружием:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948508462_94\">боевое средство поражения, действие которого основано на использовании токсических свойств химических веществ</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">средство массового поражения людей, сельскохозяйственных животных и растений болезнетворными микробами и токсинами</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">отравляющие вещества и средства их применения</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Для защиты от хлора используется ",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948519469_94\">общевойсковой фильтрующий противогаз</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948519469_97\">общевойсковой изолирующий противогаз</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Как выполняется непрямой массаж сердца и искусственное дыхание, если реанимационные мероприятия проводят два человека одновременно?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948556334_94\">Один раз вдувать воздух, затем 5 раз надавливать в область сердца</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948556334_97\">После 2-3- вдуваний воздуха 10 раз надавливают на грудную клетку</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Один раз надавливают на грудную клетку, один раз вдувают воздух</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основным поражающим фактором ядерного взрыва является:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">радиоактивное заражение</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948597133_94\">ударная волна&nbsp;</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">световое излучение</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Назовите группы СИЗ организма человека по характеру их воздействия:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_106\">средства защиты органов дыхания&nbsp;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_103\">медицинские средства защиты</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_100\">средства защиты кожи&nbsp;</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_97\">химические средства защиты&nbsp;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_94\">средства защиты слизистых оболочек&nbsp;</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При каких условиях применяется изолирующий противогаз ИП-4?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">для работы под водой</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">всех вышеперечисленных</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948868752_94\">при недостатке кислорода в воздухе</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">в случаях когда фильтрующий противогаз не защищает органы дыхания от конкретного ОВ</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">при высоких концентрациях ОВ в воздухе</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При наложении шины следует соблюдать следующее правило:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Шина накладывается всегда поверх одежды.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948905198_94\">Шина накладывается поверх одежды на закрытый перелом и поверх стерильной повязки на открытый.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Шина накладывается всегда поверх стерильной повязки.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Сущность проекции Гаусса заключается в том, что",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949410616_94\">поверхность земного эллипсоида делят меридианами, отстоящими друг от друга на 6 градусов, на 60 равных долготных зон и каждую из них при вычислении плоских координат и составлении карт развёртывают на плоскости независимо от других зон, эти зоны называются координатными.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">поверхность земного эллипсоида делят паралелями, отстоящими друг от друга на 6 градусов, на 60 равных долготных зон и каждую из них при вычислении плоских координат и составлении карт развёртывают на плоскости независимо от других зон, эти зоны называются координатными.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "В каких координатных зонах находятся точки с координатами:Ха = 5764000;Уа = 18672300.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">В пятой.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949483926_93\">В восемнадцатой.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "КАРТА — это",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949489847_97\">изображение земной поверхности, построенное по определённым математическим правилам.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949489847_93\">изображение земной отображающее ее рельеф и все местные предметы.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Счёт долгот ведётся",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949547553_94\">по дуге экватора или параллели в обе стороны от начального меридиана, от 0 до 180 градусов.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">по дуге меридиана в обе стороны от экватора, от 0 до 90 градусов.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 5120000;Y = 5499000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">На 12 км восточнее осевого меридиана координатной зоны.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949563633_94\">На 1 км западнее осевого меридиана координатной зоны.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При определении курвиметром длины маршрута по карте масштаба 1:200 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949586950_93\">270 км.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">259 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">280 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">247 км.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:25 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-41-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949637035_93\">N-36-41-А-а</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При определении курвиметром длины маршрута по карте масштаба 1:500 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">635 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">647 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949658377_94\">703 км.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">675 км.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "\n\n\nДанный условный знак обозначает",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\"><p>Гранатометы: 1 - ручной противотанковый; 2 - станковый противотанковый; 3 - автоматический станковый</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949844519_94\"><p id=\"yui_3_17_2_1_1668949844519_93\">Пулеметы: 1 - ручной; 2 - ротный или станковый; 3 - крупнокалиберный</p></div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Разграфка и номенклатура листов карты масштаба 1:1 000 000.Ряды листов этой карты обозначаются",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">заглавными буквами русского алфавита (от А до Т) и счёт их ведётся от экватора к полюсам.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949887265_94\">заглавными буквами латинского алфавита (от А до V) и счёт их ведётся от экватора к полюсам.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949887265_97\">заглавными буквами латинского алфавита (от А до V) и счёт их ведётся от&nbsp; полюсов к экватору.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
     }
-]
+];
