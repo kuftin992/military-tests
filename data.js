@@ -2680,24 +2680,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Основные ТТХ мин ТМ-83: Дальность поражения, м.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948155370_94\">5-50</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">15-80</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">10-50</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "К защитным устройствам сооружений открытого типа относятся:",
         "answers": [
             {
@@ -2858,40 +2840,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Основные ТТХ мин ТМ-62Т: Материал корпуса\n",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\"><p>пластикат</p></div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\"><p>пластмасс</p></div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\"><p>бескорпусная</p></div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948507902_96\"><p id=\"yui_3_17_2_1_1668948507902_95\">ткань</p></div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\"><p>пластик</p></div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">f. </span><div class=\"flex-fill ml-1\"><p>металл</p></div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">g. </span><div class=\"flex-fill ml-1\"><p>дерево</p></div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Заграждения предназначены для:",
         "answers": [
             {
@@ -2922,28 +2870,6 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">6,7</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Основные ТТХ мин МОН-50: Масса, кг",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">3</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948708623_94\">2</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">1,5</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">2,5</div>",
                 "isTrue": false
             }
         ],
@@ -3814,5 +3740,409 @@ const questions = [
             }
         ],
         "isTrue": false
+    },
+    {
+        "title": "Основными элементами фортификационных сооружений являются",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949053153_94\">* котлован (ров);\t* бруствер;\t* берма;\t* аппарель;\t* защитные устройства;</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">* выемка (рва);\t* бруствер;\t* берма;\t* площадка для установки оружия;</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Инженерный наблюдательный пост (ИНП) предназначен",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949173743_97\">для ведения инженерной разведки противника и местности в указанном секторе.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949173743_94\">для ведения инженерной разведки местности в указанном районе.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ПМН: Масса, г",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">450</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">350</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668949268077_94\">c. </span><div class=\"flex-fill ml-1\">550</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Инженерный разведывательный дозор (ИРД) предназначен",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">для ведения инженерной разведки особо важных объектов.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949296400_94\">для ведения инженерной разведки в ходе боя и передвижения войск.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-62: Масса ВВ при снаряжении, кг: тротилом",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949349087_94\">6,5-7,0</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">5,8-7,4</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">7,6-11,1</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">7,0-10,3</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "ПЗМ (полковая землеройная машина) отрывает траншею со скоростью",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">до 700 метров за час.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949437440_94\">до 100 метров за час.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">до 900 метров за час.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">до 300 метров за час.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">до 500 метров за час.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "К полевым фортификационным сооружениям относятся:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949548137_93\">* окопы;\t* траншеи;\t* сооружения:\t* для ведения огня;\t* наблюдения;\t* укрытия личного состава;\t* боевой техники;\t* транспорта;\t* боеприпасов;\t* других видов военного имущества.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949548137_96\">* окопы;\t* траншеи;\t* ходы сообщения;\t* сооружения:\t* для ведения огня;\t* наблюдения;\t* укрытия личного состава;\t* боевой техники;\t* боеприпасов;\t* других видов военного имущества.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949548137_99\">* окопы;\t* траншеи;\t* ходы сообщения;\t* сооружения:\t* для ведения огня;\t* наблюдения;\t* укрытия личного состава;\t* боевой техники;\t* транспорта;\t* боеприпасов;\t* других видов военного имущества.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">* окопы;\t* траншеи;\t* ходы сообщения;\t* сооружения:\t* для ведения огня;\t* наблюдения;\t* укрытия личного состава;\t* боевой техники;\t* транспорта;\t* других видов военного имущества.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин МОН-90: Масса  ВВ, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">5,8</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">5,4</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">6,6</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">6,2</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Инженерные заграждения первой степени:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949671406_93\">- мины окончательно снаряжены и установлены, а управляемые мины и минные поля приведены пред боевое состояние, ограждения минных полей сняты;&nbsp;- невзрывные заграждения полностью подготовлены, проходы и переходы через них закрыты, разрушены или заминированы.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949671406_96\">- мины окончательно снаряжены и установлены, а управляемые мины и минные поля приведены в боевое состояние, ограждения минных полей сняты;&nbsp;- невзрывные заграждения полностью подготовлены, проходы и переходы через них закрыты, разрушены или заминированы.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Расход мин направленного поражения типа МОН-50 на один километр минного поля может составлять:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">40 – 60 шт.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">50 – 70 шт.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949752398_93\">20 – 40 шт.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">50 – 80 шт.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">30 – 50 шт.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Траншея –",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">участок местности, занимаемый или занятый войсками для боя.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949887352_94\">открытое фортификационное сооружение (ров с односторонними или двухсторонним бруствером) с стрелковыми, пулеметными и другими ячейками.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">фортификационное сооружение открытого типа в виде узкого рва с бруствером.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Противотанковые минные поля имеют размеры",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949954856_94\">по фронту обычно 300-500 м и более, а в глубину 50-80 м и более.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">по фронту обычно 300-500 м и более, а в глубину 60-80 м и более.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949954856_97\">по фронту обычно 300-500 м и более, а в глубину 60-90 м и более.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">по фронту обычно 200-500 м и более, а в глубину 60-90 м и более.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">по фронту обычно 400-600 м и более, а в глубину 60-80 м и более.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Позиция –",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668950029553_93\">открытое фортификационное сооружение (ров с односторонними или двухсторонним бруствером) с стрелковыми, пулеметными и другими ячейками.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">полоса (участок, район) местности, занимаемый или занятый войсками для боя.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">фортификационное сооружение открытого типа в виде узкого рва с бруствером.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ПТМ-3: Масса, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">2,3</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">3,2</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668950125074_94\">c. </span><div class=\"flex-fill ml-1\">4,9</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-83: Дальность поражения, м.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668950143046_94\">5-50</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">15-80</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">10-50</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Окопы_ _уменьшают радиус поражения ядерного оружия",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668950164901_93\">в 0,5 – 1,5 раза.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">в 2,5 – 3 раза.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">в 2 – 2,5 раза.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">в 1,5 - 2 раза.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "В штате мотострелковой (танковой) дивизии имеется",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668950226966_93\">инженерно-саперный полк (ИСП).</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668950226966_96\">инженерно-саперный батальон (ИСБ).</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин МОН-50: Масса, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">1,5</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">2,5</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">2</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">3</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Расположение окопа должно допускать хороший обзор и обстрел впереди лежащей местности па дистанцию",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">не менее 800 м, обзор и обстрел подступов к соседним окопам;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">не менее 1000 м, обзор и обстрел подступов к соседним окопам;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">не менее 600 м, обзор и обстрел подступов к соседним окопам;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668950313126_94\">не менее 400 м, обзор и обстрел подступов к соседним окопам;</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-62Т: Материал корпуса\n",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668950356783_96\"><p id=\"yui_3_17_2_1_1668950356783_95\">ткань</p></div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\"><p>бескорпусная</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\"><p>металл</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\"><p>пластмасс</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\"><p>пластик</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">f. </span><div class=\"flex-fill ml-1\"><p>дерево</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">g. </span><div class=\"flex-fill ml-1\"><p>пластикат</p></div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
     }
-]
+];
