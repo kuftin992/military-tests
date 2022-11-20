@@ -902,42 +902,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Что называется химическим оружием:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668943784838_92\">боевое средство поражения, действие которого основано на использовании токсических свойств химических веществ</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">отравляющие вещества и средства их применения</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668943784838_95\">средство массового поражения людей, сельскохозяйственных животных и растений болезнетворными микробами и токсинами</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Что может служит защитой от светового излучения:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">водоемы и водоисточники</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">простейшие средства защиты кожи и органов дыхания</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668943804430_92\">любые преграды, не пропускающие свет: укрытия, тень густого дерева, забор и т.д.&nbsp;</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Можно ли укрыться от ударной волны, если вы увидели вспышку на значительном расстоянии:",
         "answers": [
             {
@@ -950,42 +914,6 @@ const questions = [
             },
             {
                 "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668943880657_92\">единственный способ не подвергнуться поражающему действию ударной волны – заблаговременно укрыться в защитном сооружении (убежище)&nbsp;</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Основным поражающим фактором ядерного взрыва является:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668944082809_92\">ударная волна&nbsp;</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">радиоактивное заражение</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">световое излучение</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "ОВ психохимического действия:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668944174986_92\">би-зет</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">иприт&nbsp;</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">адамсит&nbsp;</div>",
                 "isTrue": false
             }
         ],
@@ -1394,28 +1322,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Ошибки, определяющие оценку \"неудовлетворительно\" при надевании противогаза?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946027922_93\">неправильно подобран размер шлем-маски</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946027922_96\">шлем-маска одета с перекосом (порвана)</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">не закрыл глаза</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">не сделал полный выдох</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Что необходимо сделать при отсутствии дыхания у пострадавшего?",
         "answers": [
             {
@@ -1668,108 +1574,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Карта масштаба 1 : 500 000 относится к",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945392525_94\">мелкомасштабным, оперативным.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Выберете номенклатуру листа карты масштаба 1:25 000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-41-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945430456_94\">N-36-41-А-а</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 4130000;Y = 5610000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945556922_94\">На 110 км восточнее осевого меридиана координатной зоны.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">На 87 км западнее осевого меридиана координатной зоны.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Главная точка внемасштабного условного знака имеющего основание в виде прямого угла, находится",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;в середине основания.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945672446_94\">—&nbsp;в центре фигуры.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре нижней фигуры.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине угла.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Данный условный знак обозначает",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945773517_94\"><p id=\"yui_3_17_2_1_1668945773517_93\">Противопехотное минное поле</p></div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\"><p>Противотанковое минное поле</p></div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Выберете номенклатуру листа карты масштаба 1:200 000.",
         "answers": [
             {
@@ -1796,34 +1600,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Служебными (боевыми) графическими документами называют документы, отработанные",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945878067_94\">на карте схеме или карточке.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">графически на карте или схеме.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "В системе плоских прямоугольных координат положение любой точки земной поверхности относительно начала координат определяется",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">в линейной мере.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945890009_93\">в угловой мере.</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Рамки листов карты масштаба 1:1 000 000 имеют размеры:",
         "answers": [
             {
@@ -1833,28 +1609,6 @@ const questions = [
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">по долготе 6 градусов по широте 4 градуса, или в линейной мере&nbsp;—&nbsp;около 440&nbsp;км.</div>",
                 "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "При определении курвиметром длины маршрута по карте масштаба 1:100 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">123 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">145 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">131 км.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">129 км.</div>",
-                "isTrue": true
             }
         ],
         "isTrue": false
@@ -1877,6 +1631,1854 @@ const questions = [
             {
                 "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">675 км.</div>",
                 "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Главная точка внемасштабного условного знака симметричной формы, находится",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946328475_94\">—&nbsp;в центре фигуры.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине левого угла.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре нижней фигуры.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине правого угла.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">—&nbsp;в середине основания.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "К основным тактическим свойствам местности относятся",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946392661_93\">проходимость и условия ориентирования, маскировочные и защитные свойства, условия наблюдения и ведения огня.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">время года, суток, погодные условия, горы, лес, пустыня, озера, реки и болота.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:100 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946419327_94\">N-36-41</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Карта масштаба 1 : 50 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946480707_94\">крупномасштабным, тактическим.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">мелкомасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "При определении курвиметром длины маршрута по карте масштаба 1:50 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946534168_93\">62 км.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">70 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">68 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">65 км.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Главная точка внемасштабного условного знака имеющего форму фигуры с широким основанием, находится",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре фигуры.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре нижней фигуры.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946609219_94\">—&nbsp;в середине основания.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине угла.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Рабочая карта",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946628113_94\">— это топографическая карта, на которой командир (начальник, офицер штаба) с помощью графических условных знаков и подписей отображает тактическую или специальную обстановку и ее изменение в ходе боя.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">— это карта, на которой командир (начальник, офицер штаба) с помощью графических условных знаков и подписей отображает обстановку в ходе боя.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Карта масштаба 1 : 25 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946712657_94\">крупномасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946712657_97\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">мелкомасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">f. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946712657_101\">среднемасштабным, тактическим.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Данный условный знак обозначает",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\"><p>Противопехотное минное поле</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946919000_94\"><p id=\"yui_3_17_2_1_1668946919000_93\">Противотанковое минное поле</p></div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Счёт широт ведётся",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">по дуге экватора или параллели в обе стороны от начального меридиана, от 0 до 180 градусов.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946924584_94\">по дуге меридиана в обе стороны от экватора, от 0 до 90 градусов.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Счёт координатных зон Гаусса ведётся от",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946956918_94\">Гринвичского меридиана.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">меридиана 180 градусов (Противоположный Гринвичу).</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:1 000 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-41</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947104664_94\">N-36</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Колонны листов карты масштаба 1:1 000 000 нумеруются",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947125078_94\">цифрами от 1 до 60. Счёт колонн ведётся от Гринвичского меридиана с запада на восток.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947125078_97\">цифрами от 1 до 60. Счёт колонн ведётся от меридиана 180 градусов с запада на восток. (Противоположный Гринвичу).</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Предметом военной топографии, являются способы",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947149724_94\">изучения и оценки местности, ориентирования на ней и производства полевых измерений при подготовке и ведении боевых действий.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">изучения и оценки природы, ориентирования по карте и производства измерений при подготовке и ведении боевых действий.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "В каких координатных зонах находятся точки с координатами:Ха = 8695032;Уа = 5448650.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">В восьмой.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947174605_94\">В пятой.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": true
+    },
+    {
+        "title": "Что необходимо сделать при переломе ребер у пострадавшего?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Наложить шину со стороны перелома</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Наложить холодный компресс на место перелома</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946646376_94\">Наложить тугую повязку на грудную клетку</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "К основным признакам вывиха не относится",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946670512_94\">Невозможность движений в суставе</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Обширная гематома</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Вынужденное положение конечности из-за сокращения мышц</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Средства защиты по принципу защиты делятся на:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">индивидуальные и коллективные </div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">средства защиты органов дыхания и кожи </div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">индивидуальные и специальные</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">общевойсковые и специальные </div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946712001_94\">фильтрующие и изолирующие </div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Какие процессы происходят в регенеративном патроне?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">нейтрализация ОВ</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">уничтожение бактериальных средств</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">все вышеперечисленное</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946728634_94\">выделение тепла</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">удаление радиоактивных веществ</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При внезапной остановке дыхания и сердца реанимацию необходимо начинать...",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">В течение первых 15 минут</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946774758_94\">В течение первых 5 минут.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">В течение первых 10 минут.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Первая помощь при ушибах не направлена на:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946797194_94\">Обезболивание.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Уменьшение кровоизлияния в ткани.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Остановку кровотечения.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Назовите положение фильтрующего противогаза, при котором верхний край сумки на уровне поясного ремня, сумка на левом боку сдвинута назад.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Боевое</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Наготове</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946807374_94\">Походное</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "К способам оттаскивания раненых, применяемым в бою не относится:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Оттаскивание на боку.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Оттаскивание на спине.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946832666_94\">Оттаскивание за конечности.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Что относится к специальным средствам защиты органов дыхания изолирующего типа?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946864445_97\">ГП-7</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946864445_99\">ИП-4</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">ШМГ</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">ОЗК</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Какое защитное средство органов дыхания не имеет клапанной коробки?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946962505_94\">ПМК-2</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946962505_99\">ИП-4</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">ПМГ-2</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Расход противопехотных фугасных мин типа ПМН на один километр минного поля может составлять:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946561902_94\">2 000 шт.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">4 000 шт.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-62М: Материал корпуса\n",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\"><p>пластмасс</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\"><p>пластик</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\"><p>дерево</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946647332_96\"><p id=\"yui_3_17_2_1_1668946647332_95\">металл</p></div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\"><p>ткань</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">f. </span><div class=\"flex-fill ml-1\"><p>пластикат</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">g. </span><div class=\"flex-fill ml-1\"><p>бескорпусная</p></div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-83: Масса  ВВ, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">8,7</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">6,5</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">9,6</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Инженерный пост фотографирования (ИПФ) предназначен",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946702446_94\">для ведения инженерной разведки с получением документальных данных (фотоснимков) об инженерных мероприятиях противника и местности.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">для получения документальных данных (фотоснимков) об противнике.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Противотанковые мины устанавливают:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">в 3-4 ряда с расстоянием между рядами 20-40 м. и между минами в рядах 6-8 м.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946734037_94\">в 3-4 ряда с расстоянием между рядами 20-40 м. и между минами в рядах 4-6 м.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">в 2-4 ряда с расстоянием между рядами 10-20 м. и между минами в рядах 2-4 м.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">в 4-6 рядов с расстоянием между рядами 30-50 м. и между минами в рядах 6-8 м.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Подразделения специальных работ предназначены",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946841391_94\">предназначены для удовлетворения потребностей войск в электрической энергии.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">для подготовки (производства) разрушений зданий и сооружений, ликвидации последствий пожаров (взрывов) на складах, базах и арсеналах боеприпасов.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Минные поля характеризуются",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947042869_94\">расходом мин, размерами по фронту и в глубину, количеством рядов, расстоянием между рядами и минами в ряду, боевой эффективностью.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Типом применяемых мин, размерами и количеством рядов, расстоянием между рядами и минами в ряду, боевой эффективностью.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-89: Масса  ВВ, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">7,4</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947090223_94\">6,7</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">5,8</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Различают следующие виды окопов:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947113360_97\">* стрелковые;\t* пулеметные;\t* гранатометные;\t* минометные;\t* артиллерийские;\t* противотанковые;\t* для БМП, БТР.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947113360_94\">* стрелковые;\t* артиллерийские;\t* минометные;\t* противотанковые;\t* для БМП, БТР.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947113360_100\">* стрелковые;\t* артиллерийские;\t* минометные;\t* для танков, БМП, БТР.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Если на отмороженном участке обнаружены пузыри или посинение необходимо:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947701113_94\">Наложить повязку из ППИ, не растирая повреждённый участок и не вскрывая пузырей</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Проколоть пузыри и наложить повязку из ППИ.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Растереть повреждённый участок теплой рукой или рукавицей.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Разрешено ли вводить обезболивающее средство из шприц-тюбика через обмундирование?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">нет.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947723021_94\">Только в экстренных случаях.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Да.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "На какую часть тела накладывается черепашья повязка?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947758889_94\">На область локтевого и коленного суставов.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">На грудную клетку.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">На плечевой сустав.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Для защиты кожных покровов и одежды от РВ, ОВ, БС и АХОВ достаточно использовать:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947772723_94\">легкий защитный костюм л-1.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947772723_97\">костюм изолирующий химический.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947772723_100\">необходима специальная дополнительная защита.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "В каких положениях носится противогаз?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">боевом, предбоевом, пехотном</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947820284_94\">походном, наготове, боевом</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">строевом, предбоевом, боевом</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">походном, предбоевом, боевом</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">пешем, боевом, наготове</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Сколько входов (выходов) имеет убежище:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">три</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">два</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">четыре</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">один</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "ОВ психохимического действия:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947854200_94\">би-зет</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">адамсит </div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">иприт </div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Ошибки, определяющие оценку \"неудовлетворительно\" при надевании противогаза?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947863245_94\">шлем-маска одета с перекосом</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">не сделал полный выдох</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">не закрыл глаза</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">порвана шлем маска</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Что может служит защитой от светового излучения:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947908851_94\">любые преграды, не пропускающие свет: укрытия, тень густого дерева, забор и т.д. </div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">простейшие средства защиты кожи и органов дыхания</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">водоемы и водоисточники</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При артериальном кровотечении в области шеи жгут накладывается:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947919483_94\">Через руку со здоровой стороны.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Через руку с повреждённой стороны.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Циркулярно вокруг шеи.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Из чего состоит фильтрующий противогаз?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">лицевой части и регенеративного патрона</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">лицевой части с очками и обтекателями регенеративного патрона </div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">лицевой части и фильтрующе-поглощающей системы</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947951457_94\">лицевой части, противогазовой коробки, регенеративного патрона </div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">лицевой части, противогазной коробки и дыхательного мешка </div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "В каком порядке оказывается первая медицинская помощь?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">В порядке взаимопомощи</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947978827_95\">В порядке само- и взаимопомощи</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">В порядке самопомощи</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Сущность проекции Гаусса заключается в том, что",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947665531_94\">поверхность земного эллипсоида делят меридианами, отстоящими друг от друга на 6 градусов, на 60 равных долготных зон и каждую из них при вычислении плоских координат и составлении карт развёртывают на плоскости независимо от других зон, эти зоны называются координатными.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">поверхность земного эллипсоида делят паралелями, отстоящими друг от друга на 6 градусов, на 60 равных долготных зон и каждую из них при вычислении плоских координат и составлении карт развёртывают на плоскости независимо от других зон, эти зоны называются координатными.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 5120000;Y = 5499000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">На 12 км восточнее осевого меридиана координатной зоны.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947734382_94\">На 1 км западнее осевого меридиана координатной зоны.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Карта масштаба 1 : 200 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947953016_94\">крупномасштабным, тактическим.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Карта масштаба 1 : 1000 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947982201_93\">мелкомасштабным, оперативным.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Разграфка и номенклатура листов карты масштаба 1:1 000 000.Ряды листов этой карты обозначаются",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">заглавными буквами русского алфавита (от А до Т) и счёт их ведётся от экватора к полюсам.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">заглавными буквами латинского алфавита (от А до V) и счёт их ведётся от экватора к полюсам.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">заглавными буквами латинского алфавита (от А до V) и счёт их ведётся от&nbsp; полюсов к экватору.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "В каких координатных зонах находятся точки с координатами:Ха = 5764000;Уа = 18672300.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">В восемнадцатой.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">В пятой.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Географические координаты пункта, расположенного на пересечении Гринвичского меридиана с экватором составляют:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">B = 00 градусов 00 минут 00 секунд Cев. (Ю.) широты;L = 90 градусов 00 минут 00 секунд Вост. (З.) долготы.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948184955_93\">B = 00 градусов 00 минут 00 секунд Cев. (Ю.) широты;L = 00 градусов 00 минут 00 секунд Вост. (З.) долготы.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:50 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948190015_93\">N-36-41-В</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "По содержанию географические карты подразделяются на:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948216863_93\">общегеографические и специальные карты.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">морские, сухопутные и полетные карты.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При определении курвиметром длины маршрута по карте масштаба 1:200 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948220848_93\">270 км.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">259 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">247 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">280 км.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "\n\n\nДанный условный знак обозначает",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948411620_94\"><p id=\"yui_3_17_2_1_1668948411620_93\">Пулеметы: 1 - ручной; 2 - ротный или станковый; 3 - крупнокалиберный</p></div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\"><p>Гранатометы: 1 - ручной противотанковый; 2 - станковый противотанковый; 3 - автоматический станковый</p></div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "КАРТА — это",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948425832_94\">изображение земной отображающее ее рельеф и все местные предметы.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">изображение земной поверхности, построенное по определённым математическим правилам.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Карта масштаба 1 : 100 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948447028_93\">крупномасштабным, тактическим.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Для измерения кривых и извилистых линий на карте используют специальный прибор",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">_— _курсвиметр.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">_— _курсометр.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948500182_93\">— курвиметр.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Определить, на каком расстоянии к востоку или западу от осевого меридиана координатной зоны находятся точки с координатами:X = 4130000;Y = 5610000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">На 87 км западнее осевого меридиана координатной зоны.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948503812_94\">На 110 км восточнее осевого меридиана координатной зоны.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При определении курвиметром длины маршрута по карте масштаба 1:100 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">123 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">145 км.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948516695_93\">129 км.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">131 км.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "В системе географических координат положение любой точки земной поверхности относительно начала координат определяется",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">в линейной мере.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948604133_93\">в угловой мере.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "В системе плоских прямоугольных координат положение любой точки земной поверхности относительно начала координат определяется",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948629764_93\">в угловой мере.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948629764_96\">в линейной мере.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Географические координаты пункта, расположенного на пересечении Гринвичского меридиана с параллелью 50 градусов северной широты.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948644140_93\">B = 00 градусов 00 минут 00 секунд Cев. широты;L = 50 градусов 00 минут 00 секунд Вост. долготы.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948644140_96\">B = 50 градусов 00 минут 00 секунд Cев. широты;L = 00 градусов 00 минут 00 секунд Вост. долготы.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "За начало географических координат принята точка пересечения",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">меридиана 180 градусов (Противоположный Гринвичу) с экватором.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948649401_93\">начального (Гринвичского) меридиана с экватором.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ПМН: Масса  ВВ, г",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947694389_94\">200</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">100</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">150</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">250</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Расход мин типа мин типа ТМК-2 на 1 км фронта минирования составляет:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">– 400 – 500 штук.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">– 500 – 600 штук.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668947881058_93\">c. </span><div class=\"flex-fill ml-1\">– 300 – 400 штук.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-62: Масса, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">5,5-6,0</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947931247_100\">6,5-7,0</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947931247_94\">9,0-15,0</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">8,0-13,0</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947931247_97\">8,0-12,0</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Расход мин типа ТМ-62, ТМ-57, ТМ-72 на 1 км фронта минирования составляет:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947983826_94\">– 750 – 1000 штук;</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">– 1000 – 1500 штук;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">– 350 – 500 штук;</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Организационно инженерные войска состоят из соединений, частей и подразделений различного назначения:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948012518_93\">инженерно-разведывательных, инженерно-саперных, заграждений, разграждений, штурмовых, инженерно-дорожных, переправочно-понтонных, инженерно-маскировочных, инженерно-технических, полевого водоснабжения.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948012518_96\">инженерно-разведывательных, инженерно-саперных, заграждений, разграждений, штурмовых, инженерно-дорожных, понтонно-мостовых (понтонных), переправочно-десантных, инженерно-маскировочных, инженерно-технических, полевого водоснабжения.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Инженерные заграждения должны",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">быть неожиданными для противника, устойчивыми ко всем видам огневого воздействия и не стеснять маневра своих войск.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948076198_94\">по рубежам быть неожиданными для противника, по направлениям устойчивыми ко всем видам огневого воздействия и не стеснять маневра своих войск.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Подвижный отряд заграждений (ПОЗ) предназначен",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">для устройства заграждений и разрушений на направлениях действий противника.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948089087_94\">для устройства минно-взрывных заграждений и производства разрушений на направлениях действий противника.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-62П: Материал корпуса\n",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\"><p>ткань</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948118692_94\"><p id=\"yui_3_17_2_1_1668948118692_93\">пластикат</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\"><p>бескорпусная</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\"><p>пластик</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948118692_98\"><p id=\"yui_3_17_2_1_1668948118692_97\">пластмасс</p></div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">f. </span><div class=\"flex-fill ml-1\"><p>металл</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">g. </span><div class=\"flex-fill ml-1\"><p>дерево</p></div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-83: Дальность поражения, м.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948155370_94\">5-50</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">15-80</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">10-50</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "К защитным устройствам сооружений открытого типа относятся:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">* перекрытия;\t* козырьки;\t* ниши;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948185357_93\">* перекрытия;\t* козырьки;\t* ниши;\t* бруствер;</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Из чего состоит лицевая часть фильтрующего противогаза?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948317744_97\">шлем-маски с очками, клапанной коробки, обтекателей и системы крепления на голове</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948317744_94\">шлем-маски с очками, обтекателя, гофрированной трубки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, обтюратора, обтекателя</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, гофрированной трубки, противогазной коробки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">шлем-маски с очками, клапанной коробки, обтюратора</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Как оказать первую помощь пострадавшему при утоплении?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948374473_94\">Очистить полость рта пострадавшего от слизи, песка и ила, приступить к проведению искусственного дыхания</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Промыть желудок и провести реанимационные мероприятиям</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Пострадавшего положить животом в себе на колено и ритмично надавливать ему на спину</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Из чего состоит Л-1?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948418392_94\">брюки, куртка с капюшоном, закрывающим лицо, перчатки</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">брюки, куртка с капюшоном, закрывающим лицо</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">куртка с капюшоном, брюки с чулками, двухпалые перчатки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">защитный плащ, защитные чулки, защитные перчатки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">куртка, брюки, защитное белье, головной убор, подшлемник</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При отсутствии шин, чем может быть выполнена иммобилизация конечности при переломе? ",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Жгутом</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948442485_94\">Любым жестким предметом</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Веревкой</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">Ремнем</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">Бинтами</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Как оказать первую помощь пострадавшему при переломе нижних и верхних конечностей?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948475004_97\">Наложить шину, иммобилизировать конечность</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Дать обезболивающий препарат, наложить холодный компресс на место перелома</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948475004_94\">Наложить фиксирующую тугую повязку</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Что называется химическим оружием:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948508462_94\">боевое средство поражения, действие которого основано на использовании токсических свойств химических веществ</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">средство массового поражения людей, сельскохозяйственных животных и растений болезнетворными микробами и токсинами</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">отравляющие вещества и средства их применения</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Для защиты от хлора используется ",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948519469_94\">общевойсковой фильтрующий противогаз</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948519469_97\">общевойсковой изолирующий противогаз</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Как выполняется непрямой массаж сердца и искусственное дыхание, если реанимационные мероприятия проводят два человека одновременно?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948556334_94\">Один раз вдувать воздух, затем 5 раз надавливать в область сердца</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948556334_97\">После 2-3- вдуваний воздуха 10 раз надавливают на грудную клетку</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Один раз надавливают на грудную клетку, один раз вдувают воздух</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основным поражающим фактором ядерного взрыва является:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">радиоактивное заражение</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948597133_94\">ударная волна&nbsp;</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">световое излучение</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Назовите группы СИЗ организма человека по характеру их воздействия:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_106\">средства защиты органов дыхания&nbsp;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_103\">медицинские средства защиты</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_100\">средства защиты кожи&nbsp;</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_97\">химические средства защиты&nbsp;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948610938_94\">средства защиты слизистых оболочек&nbsp;</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При каких условиях применяется изолирующий противогаз ИП-4?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">для работы под водой</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">всех вышеперечисленных</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948868752_94\">при недостатке кислорода в воздухе</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">в случаях когда фильтрующий противогаз не защищает органы дыхания от конкретного ОВ</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">при высоких концентрациях ОВ в воздухе</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При наложении шины следует соблюдать следующее правило:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Шина накладывается всегда поверх одежды.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948905198_94\">Шина накладывается поверх одежды на закрытый перелом и поверх стерильной повязки на открытый.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Шина накладывается всегда поверх стерильной повязки.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Главная точка внемасштабного условного знака представляющего собой сочетание нескольких фигур, находится",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре фигуры.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">—&nbsp;в середине основания.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948700077_93\">—&nbsp;в центре нижней фигуры.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине левого угла.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">—&nbsp;в вершине правого угла.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Масштаб карты",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948724094_94\">—&nbsp;определяет степень уменьшения линий на карте относительно горизонтальных проложений соответствующих им линий на местности.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">—&nbsp;определяет степень уменьшения объектов на карте относительно соответствующих им реальных объектов на местности.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Счёт долгот ведётся",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948741590_94\">по дуге экватора или параллели в обе стороны от начального меридиана, от 0 до 180 градусов.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">по дуге меридиана в обе стороны от экватора, от 0 до 90 градусов.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Карта масштаба 1 : 500 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948752671_94\">мелкомасштабным, оперативным.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:500 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668948774210_93\">a. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:25 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948782364_93\">N-36-41-А-а</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36-41-А</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Главная точка внемасштабного условного знака имеющего основание в виде прямого угла, находится",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">—&nbsp;в середине основания.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948870895_93\">—&nbsp;в вершине угла.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре фигуры.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">—&nbsp;в центре нижней фигуры.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Служебными (боевыми) графическими документами называют документы, отработанные",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">графически на карте или схеме.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948921086_94\">на карте схеме или карточке.</div>",
+                "isTrue": true
             }
         ],
         "isTrue": false
