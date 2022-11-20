@@ -388,24 +388,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "ОВ удушающего действия:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">зарин&nbsp;</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668942812020_91\">фосген&nbsp;</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Си-Эс</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Поток лучистой энергии, включающий ультрафиолетовые, видимые и инфракрасные лучи это:",
         "answers": [
             {
@@ -866,24 +848,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Световое излучение – это:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">поток лучистой энергии, включающей ультрафиолетовые, видимые и инфракрасные лучи&nbsp;</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">скоростной поток продуктов горения, изменяющий концентрацию атмосферного воздуха</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668943440949_92\">поток невидимых нейтронов</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Химическое оружие основано:",
         "answers": [
             {
@@ -1255,28 +1219,6 @@ const questions = [
             {
                 "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">На нижнюю треть бедра.</div>",
                 "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Какие ошибки снижают оценку на один балл при надевании противогаза?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">неправильно подобран размер шлем-маски</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">образовался подворот маски</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">не полностью навинчена гайка соединительной трубки</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945779146_94\">не закрыл глаза</div>",
-                "isTrue": true
             }
         ],
         "isTrue": false
@@ -1917,32 +1859,6 @@ const questions = [
             {
                 "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946712001_94\">фильтрующие и изолирующие </div>",
                 "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Какие процессы происходят в регенеративном патроне?",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">нейтрализация ОВ</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">уничтожение бактериальных средств</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">все вышеперечисленное</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668946728634_94\">выделение тепла</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">удаление радиоактивных веществ</div>",
-                "isTrue": false
             }
         ],
         "isTrue": false
@@ -3668,5 +3584,235 @@ const questions = [
             }
         ],
         "isTrue": false
+    },
+    {
+        "title": "В каком месте накладывается кровоостанавливающий жгут на конечности?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949102263_94\">Выше раны на 10-15 см.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Рядом с раной</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Ниже раны на 10-15 см.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">Непосредственно на руку</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Первым признаком развивающегося отморожения является",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Потеря чувствительности</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Побеление</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668949131185_94\">c. </span><div class=\"flex-fill ml-1\">Колющая боль</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Когда ОЗК используется в виде \"плаща в рукава\"?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">при действии на местности с высокой травой, кустарником или при глубоком снеге</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">при выполнении дегазационных и дезактивационных работ</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">при действии на зараженной местности и выполнении дегазационных и дезактивационных работ</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949143971_94\">при действии на местности зараженной ОВ, РВ, БС</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">только при действии на местности зараженной ОВ, РВ, БС</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При переноске раненого на носилках...",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Один оказывающий помощь становится к головному концу носилок лицом к раненому, другой - к ножному концу спиной к нему.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949238860_94\">Один оказывающий помощь становится к головному концу носилок спиной к раненому, другой - к ножному концу лицом к нему.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Оказывающие помощь становятся по бокам носилок.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Какие процессы происходят в регенеративном патроне?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949314334_97\">нейтрализация ОВ</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949314334_94\">поглощение углекислого газа</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949314334_100\">удаление радиоактивных веществ</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949314334_103\">уничтожение бактериальных средств</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949314334_106\">все вышеперечисленное</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Чему равно нормативное время надевания противогаза в одиночку на оценку \"удовлетворительно\"?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">7 с.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">8 с.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949475126_94\">10 с.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">9 с.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">6 с.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "ОВ удушающего действия:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">зарин&nbsp;</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Си-Эс</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949624531_94\">фосген&nbsp;</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Какие ошибки снижают оценку на один балл при надевании противогаза?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">перекручена соединительная трубка</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949756512_97\">образовался подворот маски</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">не полностью навинчена гайка соединительной трубки</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949756512_94\">неправильно подобран размер шлем-маски</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Как обработать участки кожи, пораженные серной и соляной кислотой?",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949875614_93\">Промыть обильным количеством воды</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">Наложить медицинскую стерильную повязку</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Обработать настойкой йода</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Световое излучение – это:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949899545_94\">поток невидимых нейтронов</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">скоростной поток продуктов горения, изменяющий концентрацию атмосферного воздуха</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949899545_97\">поток лучистой энергии, включающей ультрафиолетовые, видимые и инфракрасные лучи&nbsp;</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "При подъёме в гору носилки поворачивают:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">Не имеет значения.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949944836_94\">Головным концом вперёд.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">Ножным концом вперёд.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
     }
-];
+]
