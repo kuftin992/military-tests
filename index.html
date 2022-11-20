@@ -1653,7 +1653,7 @@
 <script>
     const min = s => s.replace(/[^а-яА-Я0-9]/ig, '');
 
-	const data = questions;
+	let data = questions;
 	const errors = [];
 	let count = 0;
 
@@ -1690,5 +1690,28 @@
     });
 </script>
 
+<script>
+    const addQuestions = (str, isTrue = true) => {
+        const array = JSON.parse(str).map((el) => {
+            el.isTrue = isTrue;
+            return el;
+        });
+
+        array.forEach((question) => {
+            const q = data.find((el) => el.title === question.title);
+
+            if (q && !q.isTrue) {
+                data = data.filter((el) => el.title !== question.title);
+                data.push(question);
+            } else {
+                if (!q) {
+                    data.push(question);
+                }
+            }
+        });
+
+        console.log(data);
+    };
+</script>
 
 </body></html>
