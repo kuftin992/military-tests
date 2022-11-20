@@ -1574,46 +1574,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Выберете номенклатуру листа карты масштаба 1:200 000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-41</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945799358_94\">N-36-XXX</div>",
-                "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Рамки листов карты масштаба 1:1 000 000 имеют размеры:",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668945905664_94\">по долготе 4 градуса по широте 6 градусов, или в линейной мере&nbsp;—&nbsp;около 440&nbsp;км.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">по долготе 6 градусов по широте 4 градуса, или в линейной мере&nbsp;—&nbsp;около 440&nbsp;км.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "При определении курвиметром длины маршрута по карте масштаба 1:500 000 в прямом и обратном направлении прочитали отсчёты 112 и 113 см. Чему равна длина маршрута на местности, если половина его проходит в горах, а другая половина в холмистом районе?",
         "answers": [
             {
@@ -2556,54 +2516,6 @@ const questions = [
         "isTrue": false
     },
     {
-        "title": "Карта масштаба 1 : 200 000 относится к",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947953016_94\">крупномасштабным, тактическим.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Карта масштаба 1 : 1000 000 относится к",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668947982201_93\">мелкомасштабным, оперативным.</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
-                "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
         "title": "Разграфка и номенклатура листов карты масштаба 1:1 000 000.Ряды листов этой карты обозначаются",
         "answers": [
             {
@@ -2645,32 +2557,6 @@ const questions = [
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948184955_93\">B = 00 градусов 00 минут 00 секунд Cев. (Ю.) широты;L = 00 градусов 00 минут 00 секунд Вост. (З.) долготы.</div>",
                 "isTrue": true
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Выберете номенклатуру листа карты масштаба 1:50 000.",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948190015_93\">N-36-41-В</div>",
-                "isTrue": true
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36</div>",
-                "isTrue": false
             }
         ],
         "isTrue": false
@@ -2735,28 +2621,6 @@ const questions = [
             {
                 "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">изображение земной поверхности, построенное по определённым математическим правилам.</div>",
                 "isTrue": false
-            }
-        ],
-        "isTrue": false
-    },
-    {
-        "title": "Карта масштаба 1 : 100 000 относится к",
-        "answers": [
-            {
-                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
-                "isTrue": false
-            },
-            {
-                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948447028_93\">крупномасштабным, тактическим.</div>",
-                "isTrue": true
             }
         ],
         "isTrue": false
@@ -3482,5 +3346,327 @@ const questions = [
             }
         ],
         "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-83: Масса, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668948448172_94\">a. </span><div class=\"flex-fill ml-1\">20</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">13</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">15</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-62Т: Материал корпуса\n",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\"><p>пластикат</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\"><p>пластмасс</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\"><p>бескорпусная</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948507902_96\"><p id=\"yui_3_17_2_1_1668948507902_95\">ткань</p></div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\"><p>пластик</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">f. </span><div class=\"flex-fill ml-1\"><p>металл</p></div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">g. </span><div class=\"flex-fill ml-1\"><p>дерево</p></div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Заграждения предназначены для:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948536628_94\">- задержания продвижения противника;- затруднения противника;- нанесение противнику потерь в живой силе и технике;- создание наиболее благоприятных условий своим войскам;- поражения противника всеми видами оружия.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">- задержания продвижения противника;- затруднения противника;- нанесение противнику потерь в технике;- создание наиболее благоприятных условий своим войскам;- поражения противника.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">- задержания продвижения противника;- затруднения противника;- нанесение противнику потерь в живой силе и технике;- создание наиболее благоприятных условий;- поражения противника всеми видами оружия.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ТМ-89: Масса, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">13,0</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668948688328_94\">b. </span><div class=\"flex-fill ml-1\">11,6</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">6,7</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин МОН-50: Масса, кг",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">3</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948708623_94\">2</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">1,5</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">2,5</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Подразделения инженерных конструкций предназначены",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948728005_94\">для выполнения задач по скрытию и имитации войск и объектов с применением средств инженерного вооружения, местных средств и материалов.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948728005_97\">для заготовки конструкций фортификационных сооружений и низководных мостов.</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Расход осколочных мин типа ОЗМ-72 на один километр минного поля может составлять:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">60 – 80 шт.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">50 – 70 шт.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">20 – 40 шт.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948766183_95\">40 – 60 шт.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">30 – 50 шт.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "В штате мотострелкового (танкового) полка имеется",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">инженерно-саперная рота (ИСР).</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668948863999_94\">инженерно-саперный батальон (ИСБ).</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Основные ТТХ мин ПФМ-1с: Масса, г",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\" id=\"yui_3_17_2_1_1668948969073_94\">a. </span><div class=\"flex-fill ml-1\">80</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">95</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">85</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">90</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Рамки листов карты масштаба 1:1 000 000 имеют размеры:",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949046257_94\">по долготе 4 градуса по широте 6 градусов, или в линейной мере&nbsp;—&nbsp;около 440&nbsp;км.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">по долготе 6 градусов по широте 4 градуса, или в линейной мере&nbsp;—&nbsp;около 440&nbsp;км.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:50 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36-XXX</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949066859_93\">N-36-41-В</div>",
+                "isTrue": true
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Карта масштаба 1 : 1000 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">крупномасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949081907_94\">мелкомасштабным, оперативным.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Карта масштаба 1 : 100 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949139950_93\">крупномасштабным, тактическим.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">среднемасштабным, тактическим.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Карта масштаба 1 : 200 000 относится к",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949261171_96\">среднемасштабным, тактическим.</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949261171_93\">среднемасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\">мелкомасштабным, оперативным.</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">крупномасштабным, тактическим.</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
+    },
+    {
+        "title": "Выберете номенклатуру листа карты масштаба 1:200 000.",
+        "answers": [
+            {
+                "html": "<span class=\"answernumber\">a. </span><div class=\"flex-fill ml-1\">N-36</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">b. </span><div class=\"flex-fill ml-1\">N-36-41</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">c. </span><div class=\"flex-fill ml-1\" id=\"yui_3_17_2_1_1668949307577_93\">N-36-XXX</div>",
+                "isTrue": true
+            },
+            {
+                "html": "<span class=\"answernumber\">d. </span><div class=\"flex-fill ml-1\">N-36-А</div>",
+                "isTrue": false
+            },
+            {
+                "html": "<span class=\"answernumber\">e. </span><div class=\"flex-fill ml-1\">N-36-41-В-а</div>",
+                "isTrue": false
+            }
+        ],
+        "isTrue": false
     }
-];
+]
