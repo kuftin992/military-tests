@@ -18,4 +18,3 @@ const parse = (isTrue = true) => {
 
     console.log(data);
 };
-

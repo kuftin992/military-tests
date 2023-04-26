@@ -1531,10 +1531,11 @@
 
 <script>
     const addQuestions = (str, isTrue = true) => {
-        const array = JSON.parse(str).map((el) => {
-            el.isTrue = isTrue;
-            return el;
-        });
+        // const array = JSON.parse(str).map((el) => {
+        //     el.isTrue = isTrue;
+        //     return el;
+        // });
+        const array = str;
 
         array.forEach((question) => {
             const q = data.find((el) => el.title === question.title);
